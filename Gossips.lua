@@ -1,6 +1,9 @@
 local _, AutoGossip = ...
 
 AutoGossip.GOSSIPS = {
+	-- Misc.
+	["Katy Stampwhistle"] = {48598},
+	-- Hillsbrad Foothills
 	["Dumass"] = {
 		39812, 39344, -- Quest "<todo>"
 	},
