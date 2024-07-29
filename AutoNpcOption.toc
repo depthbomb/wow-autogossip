@@ -1,0 +1,12 @@
+## Interface: 110000
+## Title: Auto|cff00c0ffGossip|r
+## Author: depthbomb
+## Notes: Automatically picks NPC gossip options to progress quests or to access NPC features (vendors, mail, etc).
+## IconTexture: 3193419
+
+## X-Min-Interface: 110000
+## X-Category: Questing & Leveling
+## X-Curse-Project-ID: 1073819
+
+AutoGossip.lua
+Gossips.lua
