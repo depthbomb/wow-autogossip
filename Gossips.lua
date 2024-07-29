@@ -1,6 +1,6 @@
 local _, AutoGossip = ...
 
--[[
+--[[
 This table holds an array of gossip option IDs keyed by the NPC that provides said options.
 
 Use `/dump C_GossipInfo.GetOptions()` with the gossip window open to get the option IDs.
