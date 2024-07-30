@@ -6,10 +6,9 @@ This table holds an array of gossip option IDs keyed by the NPC that provides sa
 Use `/dump C_GossipInfo.GetOptions()` with the gossip window open to get the option IDs.
 ]]
 AutoGossip.GOSSIPS = {
-	-- Misc.
+	["Zidormi"] = {49009, 49008},
+	["Fiona's Caravan"] = {37586},
 	["Katy Stampwhistle"] = {48598},
-
-	-- Hillsbrad Foothills
 	["Dumass"] = {
 		39812, 39344,        -- Quest "Welcome to the Machine"
 		                     -- TODO Deep Mine Rescue
@@ -22,4 +21,9 @@ AutoGossip.GOSSIPS = {
 	["Johnny Awesome"] = {
 		38308, 39120, 39119, -- Quest "Welcome to the Machine"
 	},
+	["Kotonga"] = {38618},
+	["Totem of Akil'darah"] = {38617},
+
+	-- TODO Tarren Mill dungeon
+	-- TODO The Slave Pens dungeon
 }
