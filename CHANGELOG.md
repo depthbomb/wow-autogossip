@@ -1,3 +1,9 @@
+## 2024.07.30
+
+- Added automation for the following NPCs/objects:
+  - Fiona's Caravan
+  - Argus Highbeacon
+
 ## 2024.07.29
 
 - Initial Release
