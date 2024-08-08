@@ -7,7 +7,7 @@ There are two modifier keys that can be held down before talking to an NPC that 
 - `SHIFT` prevents gossip automation
 - `ALT` forces gossip automation in cases where it would be stopped, such as if the NPC has available quests
 
-**NOTE** Do not use this addon (or at least hold `SHIFT` before talking to NPCs) if you like to take your time and read NPC dialogue.
+**NOTE** Do not use this addon if you like to take your time and/or read NPC dialogue as this will instantly choose the best option(s) to progress things. If you do want to continue using this addon but want to not automatically choose an option, then hold `SHIFT` before talking to an NPC.
 
 ---
 
