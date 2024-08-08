@@ -36,6 +36,18 @@ AutoGossip.GOSSIPS = {
 	["Totem of Akil'darah"] = {
 		38617,
 	},
+	["Lord Itharius"] = {
+		110732,
+	},
+	["Somnikus"] = {
+		110733,
+	},
+	["Gerithus"] = {
+		110731,
+	},
+	["Ysera"] = {
+		113971,
+	},
 
 	-- TODO Old Hillsbrad Foothills
 	-- TODO The Black Morass
