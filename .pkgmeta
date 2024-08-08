@@ -1,4 +1,5 @@
 package-as: AutoGossip
+changelog-title: AutoGossip
 
 enable-nolib-creation: no
 
@@ -10,4 +11,5 @@ license-output: LICENSE
 
 ignore:
   - README.md
+  - .vscode/settings.json
   - .gitignore
