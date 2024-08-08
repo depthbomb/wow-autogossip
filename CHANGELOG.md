@@ -1,9 +1,10 @@
-## 2024.08.07.1
+## 2024.08.07
 
 - Added automation for the following quests:
   - Putting Roots Down
   - Good Counsel
   - Marithra's Gambit
+  - Flight and Fight
 
 ## 2024.07.30
 

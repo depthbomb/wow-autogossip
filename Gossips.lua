@@ -53,6 +53,10 @@ AutoGossip.GOSSIPS = {
 	["Kiya Featherpaw"] = {
 		110747, -- Quest "Putting Roots Down"
 	},
+	["Merithra"] = {
+		114068, -- Quest "Flight and Fight"
+		110721, -- Quest "The Bloom Begins"
+	},
 
 	-- TODO Old Hillsbrad Foothills
 	-- TODO The Black Morass
