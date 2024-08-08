@@ -1,3 +1,10 @@
+## 2024.08.07.1
+
+- Added automation for the following quests:
+  - Putting Roots Down
+  - Good Counsel
+  - Marithra's Gambit
+
 ## 2024.07.30
 
 - Added automation for the following NPCs/objects:
