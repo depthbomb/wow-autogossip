@@ -1,6 +1,6 @@
-## Interface: 110000, 110002
+## Interface: 110002
 ## Title: |cffffff77Auto|r|cff00c0ffGossip|r
-## Version: v2024.07.30
+## Version: v2024.08.07
 ## Author: depthbomb
 ## Notes: Automatically picks NPC gossip options to progress quests or to access NPC features (vendors, mail, etc).
 ## IconTexture: 3193419
