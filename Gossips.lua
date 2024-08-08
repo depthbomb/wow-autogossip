@@ -37,16 +37,21 @@ AutoGossip.GOSSIPS = {
 		38617,
 	},
 	["Lord Itharius"] = {
-		110732,
+		110732, -- Quest "Good Counsel"
 	},
 	["Somnikus"] = {
-		110733,
+		110733, -- Quest "Good Counsel"
+		114005, -- Quest "Putting Roots Down"
 	},
 	["Gerithus"] = {
-		110731,
+		110731, -- Quest "Good Counsel"
 	},
 	["Ysera"] = {
-		113971,
+		113971, -- Quest "Good Counsel"
+		110786, -- Quest "Merithra's Gambit"
+	},
+	["Kiya Featherpaw"] = {
+		110747, -- Quest "Putting Roots Down"
 	},
 
 	-- TODO Old Hillsbrad Foothills

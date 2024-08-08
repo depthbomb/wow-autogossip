@@ -10,5 +10,4 @@ license-output: LICENSE
 
 ignore:
   - README.md
-  - .vscode
   - .gitignore
