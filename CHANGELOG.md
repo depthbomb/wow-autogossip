@@ -1,16 +1,36 @@
+## 2024.08.08
+
+- Added automation for the following quests:
+  - _Andu-falah-dor_
+  - _A Blossom Witnessed_
+  - _New Moon_
+  - _Something Worth Celebrating_
+  - _A Changed Land_
+  - _Offerings for the Well_
+  - _Fair Skies and Strong Winds_
+  - _The Harbinger_
+  - _Riftwalker Reports_
+  - _Azeroth's Voice_
+  - _The Bronzebeard Family_
+  - _Uncertainty_
+  - _Opening Wounds_
+  - _Contrition_
+- Added automation for the following NPCs:
+  - _Zidormi_ (Silithus)
+
 ## 2024.08.07
 
 - Added automation for the following quests:
-  - Putting Roots Down
-  - Good Counsel
-  - Marithra's Gambit
-  - Flight and Fight
+  - _Putting Roots Down_
+  - _Good Counsel_
+  - _Marithra's Gambit_
+  - _Flight and Fight_
 
 ## 2024.07.30
 
 - Added automation for the following NPCs/objects:
-  - Fiona's Caravan
-  - Argus Highbeacon
+  - _Fiona's Caravan_
+  - _Argus Highbeacon_
 
 ## 2024.07.29
 
