@@ -1,5 +1,4 @@
 package-as: AutoGossip
-changelog-title: AutoGossip
 
 enable-nolib-creation: no
 
