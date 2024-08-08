@@ -13,3 +13,4 @@ ignore:
   - README.md
   - .vscode/settings.json
   - .gitignore
+  - build.ps1
