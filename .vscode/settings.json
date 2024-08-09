@@ -8,7 +8,9 @@
 		"ipairs",
 		"C_GossipInfo",
 		"tContains",
-		"Enum"
+		"Enum",
+		"StaticPopupDialogs",
+		"StaticPopup_Show"
 	],
 	"Lua.runtime.version": "Lua 5.1",
 	"Lua.runtime.builtin": {
@@ -23,6 +25,6 @@
 		"utf8": "disable"
 	},
 	"Lua.workspace.library": [
-		"$USERPROFILE\\.vscode\\extensions\\ketho.wow-api-0.15.7\\Annotations"
+		"$USERPROFILE\\.vscode\\extensions\\ketho.wow-api-0.15.9\\Annotations"
 	]
 }

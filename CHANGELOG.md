@@ -1,3 +1,12 @@
+## 2024.08.09
+
+- Added automation for the following zones:
+  - _Exile's Reach_
+- Added automation for the following NPCs:
+  - _Zidormi_ (Tirisfal Glades)
+  - _Chromie_ (Timewalking Campaign selection)
+  - _Lothos Riftwaker_ (Molten Core teleport)
+
 ## 2024.08.08
 
 - Added automation for the following quests:

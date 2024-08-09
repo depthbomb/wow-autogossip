@@ -8,7 +8,8 @@ Use `/dump C_GossipInfo.GetOptions()` with the gossip window open to get the opt
 AutoGossip.GOSSIPS = {
 	["Zidormi"] = {
 		49009, 49008, -- Arathi Highlands time-traveling
-		47634, 47635, -- Silithus time-traveling
+		47635, 47634, -- Silithus time-traveling
+		49019, 49018, -- Tirisfal Glades time-traveling
 	},
 	["Fiona's Caravan"] = {
 		37586, 37587,
@@ -21,7 +22,6 @@ AutoGossip.GOSSIPS = {
 	},
 	["Dumass"] = {
 		39812, 39344, -- Quest "Welcome to the Machine"
-			          -- TODO Deep Mine Rescue
 	},
 	["Kingslayer Orkus"] = {
 		39118, 39073, 39072, -- Quest "Welcome to the Machine"
@@ -132,6 +132,20 @@ AutoGossip.GOSSIPS = {
 	["Arzal'kal"] = {
 		111253, -- Quest "Uncertainty"
 		110777, -- Quest "Contrition"
+	},
+	["Lothos Riftwaker"] = {
+		32976, -- Molten Core teleport
+	},
+	["Herbert Gloomburst"] = {
+		52949, -- Quest "The Rescue of Herbert Gloomburst"
+		54297, -- Quest "right beneath their eyes"
+	},
+	["Warlord Breka Grimaxe"] = {
+		52784, -- Quest "Dungeon: Darkmaul Citadel"
+		51745,
+	},
+	["Chromie"] = {
+		51901, -- Timewalking campaign selection
 	},
 
 	-- TODO Old Hillsbrad Foothills
