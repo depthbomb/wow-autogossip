@@ -97,6 +97,7 @@ AutoGossip.GOSSIPS = {
 		110822, 110821, -- Quest "Something Worth Celebrating"
 	},
 	["Archmage Khadgar"] = {
+		55626,  -- Quest "Whispers on the Win	ds"
 		111167, -- Quest "Something Worth Celebrating"
 	},
 	["Alexstrasza the Life-Binder"] = {
@@ -146,6 +147,31 @@ AutoGossip.GOSSIPS = {
 	},
 	["Chromie"] = {
 		51901, -- Timewalking campaign selection
+	},
+	["Scalecommander Viridia"] = {
+		51849, -- Quest "Final Orders"
+	},
+	["Scalecommander Sarkareth"] = {
+		51850, -- Quest "Final Orders"
+	},
+	["Ebyssian"] = {
+		55582, -- Quest "Aspectral Invitation"
+		55863, -- Quest "An Iconic, Draconic Look"
+	},
+	["Pathfinder Tacha"] = {
+		53882, -- Quest "Expeditionary Coordination"
+	},
+	["Boss Magor"] = {
+		53883, -- Quest "Expeditionary Coordination"
+	},
+	["Cataloger Coralie"] = {
+		54035, -- Quest "Expeditionary Coordination"
+	},
+	["Kodethi"] = {
+		107450, -- Quest "The Dark Talons"
+	},
+	["Soridormi"] = {
+		109275, -- Reporting in for Time Rift
 	},
 
 	-- TODO Old Hillsbrad Foothills
