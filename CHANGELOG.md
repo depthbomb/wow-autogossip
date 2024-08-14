@@ -1,3 +1,9 @@
+## 2024.08.14
+
+- Added automation for the following NPCs:
+  - _Herbert Gloomburst_ (Exile's Reach, Hunter-specific, Horde-specific)
+  - _Mithdran Dawntracker_ (Exile's Reach, Hunter-specific, Horde-specific)
+
 ## 2024.08.13
 
 - Added automation for the following NPCs:

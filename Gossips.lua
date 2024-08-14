@@ -139,7 +139,11 @@ AutoGossip.GOSSIPS = {
 	},
 	["Herbert Gloomburst"] = {
 		52949, -- Quest "The Rescue of Herbert Gloomburst"
-		54297, -- Quest "right beneath their eyes"
+		54297, -- Quest "Right Beneath Their Eyes",
+		52664, -- Quest "A Hunter's Trap"
+	},
+	["Mithdran Dawntracker"] = {
+		52668, -- Quest "The Art of Taming"
 	},
 	["Warlord Breka Grimaxe"] = {
 		52784, -- Quest "Dungeon: Darkmaul Citadel"
