@@ -2,7 +2,7 @@
 
 - Added automation for the following NPCs:
   - _Archmage Khadgar_ (Dragon Isles introduction quest)
-    - This is untested for Alliance
+    - Untested for Alliance
   - _Soridormi_ (Reporting in for Time Rift)
 - Added automation for the Dracthyr starting quests
   - Potentially incomplete, untested for Alliance
@@ -10,10 +10,11 @@
 ## 2024.08.09
 
 - Added automation for the following zones:
-  - _Exile's Reach_
+  - _Exile's Reach_ (Horde)
 - Added automation for the following NPCs:
   - _Zidormi_ (Tirisfal Glades)
   - _Chromie_ (Timewalking Campaign selection)
+    - Untested for Alliance
   - _Lothos Riftwaker_ (Molten Core teleport)
 
 ## 2024.08.08
