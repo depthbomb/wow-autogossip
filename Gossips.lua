@@ -177,6 +177,64 @@ AutoGossip.GOSSIPS = {
 	["Soridormi"] = {
 		109275, -- Reporting in for Time Rift
 	},
+	["Totem of Hir'eek"] = {
+		38324, -- Quest "Backdoor Dealings"
+	},
+	["Gmurgl"] = {
+		39173, -- Quest "Let's See What You've Got, Zanzil"
+	},
+	["Orgus"] = {
+		37658, -- Quest "Let's See What You've Got, Zanzil"
+	},
+	["Captain Bartholomew Softbeard"] = {
+		37874, -- Quest "Let's See What You've Got, Zanzil"
+	},
+	["Ruined Lifeboat"] = {
+		38201, -- Quest "A Dish Best Served Huge"
+	},
+	["Narkk"] = {
+		38527, -- Quest "Looks Like a Tauren Pirate to Me"
+	},
+	["Bossy"] = {
+		38305, 38306, -- Quest "Looks Like a Tauren Pirate to Me"
+	},
+	["Fleet Master Seahorn"] = {
+		38529, 38530, -- Quest "Looks Like a Tauren Pirate to Me"
+	},
+	["\"Pretty Boy\" Duncan"] = {
+		39231, -- Quest "Swabbing Duty"
+	},
+	["Bloodsail Oarsman"] = {
+		38570, -- Quest "Drive-By Piracy"
+	},
+	["Long John Copper"] = {
+		37799, -- Quest "The Brashtide Crew"
+	},
+	["Enormous Shawn Stooker"] = {
+		38351, -- Quest "The Brashtide Crew"
+	},
+	["Wailing Mary Smitts"] = {
+		38489, -- Quest "The Brashtide Crew"
+	},
+	["Bloodsail Corsair"] = {
+		39613, -- Quest "Making Mutiny"
+	},
+	["Grog Barrel"] = {
+		39383, -- Quest "Sinking From Within"
+	},
+	["Gunpowder Barrel"] = {
+		38808, -- Quest "Sinking From Within"
+	},
+	["Cannonball Crate"] = {
+		38809, -- Quest "Sinking From Within"
+	},
+	["Gringer"] = {
+		32328, -- Quest "The Final Voyage of the Brashtide"
+		32329, -- Quest "Bloodsail's End"
+	},
+	["Arcanist Arman"] = {
+		39915, -- Quest "The Battle for Andorhal"
+	},
 
 	-- TODO Old Hillsbrad Foothills
 	-- TODO The Black Morass

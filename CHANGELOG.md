@@ -1,8 +1,24 @@
+## 2024.08.20
+
+- Added automation for the following quests:
+  - _Backdoor Dealings_
+  - _Let's See What You've Got, Zanzil_
+  - _A Dish Best Served Huge_
+  - _Looks Like a Tauren Pirate to Me_
+  - _Swabbing Duty_
+  - _Drive-By Piracy_
+  - _The Brashtide Crew_
+  - _Making Mutiny_
+  - _Sinking From Within_
+  - _The Final Voyage of the Brashtide_
+  - _Bloodsail's End_
+  - _The Battle for Andorhal_
+
 ## 2024.08.14
 
 - Added automation for the following NPCs:
-  - _Herbert Gloomburst_ (Exile's Reach, Hunter-specific, Horde-specific)
-  - _Mithdran Dawntracker_ (Exile's Reach, Hunter-specific, Horde-specific)
+  - _Herbert Gloomburst_
+  - _Mithdran Dawntracker_
 
 ## 2024.08.13
 
