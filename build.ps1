@@ -2,7 +2,10 @@ $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 $filesToZip = @(
 	"$scriptDir\AutoGossip.lua",
 	"$scriptDir\AutoGossip.toc",
-	"$scriptDir\Gossips.lua",
+	"$scriptDir\gossips\Instances.lua",
+	"$scriptDir\gossips\OpenWorld.lua",
+	"$scriptDir\gossips\Toys.lua",
+	"$scriptDir\gossips\Vendors.lua",
 	"$scriptDir\CHANGELOG.md",
 	"$scriptDir\LICENSE"
 )
@@ -26,7 +29,11 @@ function Create-Zip {
 	New-Item -ItemType Directory -Path $folderInZip -Force | Out-Null
 
 	foreach ($file in $files) {
-		Copy-Item -Path $file -Destination $folderInZip -Force
+		$relativePath = $file.Substring($scriptDir.Length + 1)
+		$destinationPath = Join-Path $folderInZip $relativePath
+
+		New-Item -ItemType Directory -Path (Split-Path $destinationPath -Parent) -Force | Out-Null
+		Copy-Item -Path $file -Destination $destinationPath -Force
 	}
 
 	[System.IO.Compression.ZipFile]::CreateFromDirectory($tempFolder, $zipFileName)

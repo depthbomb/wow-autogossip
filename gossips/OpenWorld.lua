@@ -1,11 +1,8 @@
 local _, AutoGossip = ...
 
---[[
-This table holds an array of gossip option IDs keyed by the NPC that provides said options.
+AutoGossip.GOSSIPS = AutoGossip.GOSSIPS or {}
 
-Use `/dump C_GossipInfo.GetOptions()` with the gossip window open to get the option IDs.
-]]
-AutoGossip.GOSSIPS = {
+AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Zidormi"] = {
 		49009, 49008, -- Arathi Highlands time-traveling
 		47635, 47634, -- Silithus time-traveling
@@ -15,10 +12,7 @@ AutoGossip.GOSSIPS = {
 		37586, 37587,
 	},
 	["Argus Highbeacon"] = {
-		37583
-	},
-	["Katy Stampwhistle"] = {
-		48598
+		37583,
 	},
 	["Dumass"] = {
 		39812, 39344, -- Quest "Welcome to the Machine"
@@ -97,7 +91,7 @@ AutoGossip.GOSSIPS = {
 		110822, 110821, -- Quest "Something Worth Celebrating"
 	},
 	["Archmage Khadgar"] = {
-		55626,  -- Quest "Whispers on the Win	ds"
+		55626,  -- Quest "Whispers on the Winds"
 		111167, -- Quest "Something Worth Celebrating"
 	},
 	["Alexstrasza the Life-Binder"] = {
@@ -235,8 +229,16 @@ AutoGossip.GOSSIPS = {
 	["Arcanist Arman"] = {
 		39915, -- Quest "The Battle for Andorhal"
 	},
-
-	-- TODO Old Hillsbrad Foothills
-	-- TODO The Black Morass
-	-- TODO The Slave Pens
-}
+	["Nozdormu"] = {
+		110057, -- Quest "Rewind and Reconcile"
+	},
+	["Secured Shipment"] = {
+		108274, -- Secured Shipment looting
+	},
+	["Suffusion Crucible"] = {
+		108249,
+	},
+	["Suffusion Mold"] = {
+		108250,
+	},
+})

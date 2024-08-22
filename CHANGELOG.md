@@ -1,3 +1,19 @@
+## 2024.08.22
+
+- Added automation for the following instances:
+  - _Ragefire Chasm_
+  - _Uldaman_
+  - _Zul'Farrak_
+  - _The Wailing Caverns_
+  - _Old Hillsbrad Foothills_
+  - _The Culling of Stratholme_
+  - _End Time_ (partial)
+  - _The Hour of Twilight_
+- Added automation for the following NPCs:
+  - _Nozdormu_ (Rewind and Reconcile)
+- Added automation for various objects related to Fyrakk Assaults
+- Added automation for various Loamm vendors
+
 ## 2024.08.20
 
 - Added automation for the following quests:
