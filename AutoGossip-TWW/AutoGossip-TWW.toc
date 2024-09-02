@@ -1,0 +1,12 @@
+## Interface: 110002
+## Title: |cffffff77Auto|r|cff00c0ffGossip|r |cnTRANSMOGRIFY_FONT_COLOR:TWW|r
+## Version: v2024.09.02
+## Author: depthbomb
+## Notes: A plugin for |cffffff77Auto|r|cff00c0ffGossip|r that adds NPC gossip automation to The War Within content.
+## IconTexture: 3193419
+## RequiredDeps: AutoGossip-Core
+
+## X-Category: Questing & Leveling
+## X-Curse-Project-ID: 1073819
+
+AutoGossip-TWW.lua

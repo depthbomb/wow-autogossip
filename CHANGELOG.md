@@ -1,3 +1,13 @@
+## 2024.09.02
+
+This update splits _AutoGossip_ into multiple addons that are included automatically. The main addon is now called _AutoGossip Core_ and will provide automation for all content prior to _The War Within_ with _The War Within_ content being split into a "plugin" addon. The plugin addon does nothing on its own and requires the core addon to be enabled. You can disable this plugin addon to "opt out" of NPC automation in _The War Within_ content.
+
+- Started adding automation to various NPCs and objects in _The War Within_ content
+  - This is currently incomplete and actively being worked on
+  - This can be disabled by disabling the new **AutoGossip-TWW** addon
+- Fixed the available quest warning appearing when it shouldn't
+- Updated addon message style
+
 ## 2024.08.22
 
 - Added automation for the following instances:

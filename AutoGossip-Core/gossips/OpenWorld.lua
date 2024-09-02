@@ -112,12 +112,6 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Locus-Walker"] = {
 		120568, -- Quest "Radiant Warnings"
 	},
-	["Magni Bronzebeard"] = {
-		120882, -- Quest "Azeroth's Voice"
-	},
-	["Brann Bronzebeard"] = {
-		121542, -- Quest "The Bronzebeard Family"
-	},
 	["Grand Artificer Romuul"] = {
 		110742, -- Quest "Uncertainty"
 	},

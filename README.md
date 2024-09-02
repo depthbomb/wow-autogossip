@@ -9,6 +9,14 @@ There are two modifier keys that can be held down before talking to an NPC that 
 
 **NOTE** Do not use this addon if you like to take your time and/or read NPC dialogue as this will instantly choose the best option(s) to progress things. If you do want to continue using this addon but want to not automatically choose an option, then hold `SHIFT` before talking to an NPC.
 
+## Plugins
+
+Installing AutoGossip now also includes optional plugins that are enabled automatically in the addon menu. For example, NPC automation in _The War Within_ is its own plugin so you may disable that addon to disable automation.
+
+## Known Issues
+
+- Automation sometimes does not work when talking to an NPC that is automated. Closing the gossip window and talking to them again usually works.
+
 ---
 
 This is my first attempt at a WoW addon so I'm still learning!
