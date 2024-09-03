@@ -17,7 +17,6 @@ $alwaysCopy = @(
 	"$scriptDir\README.md"
 )
 $destinationFolder = "$scriptDir\builds"
-$zipFolderName = "AutoGossip"
 $currentDate = (Get-Date).ToString("yyyy.MM.dd")
 $baseZipFileName = "$destinationFolder\AutoGossip.$currentDate.zip"
 $zipFileName = $baseZipFileName
@@ -32,22 +31,23 @@ function Create-Zip {
 	Add-Type -AssemblyName "System.IO.Compression.FileSystem"
 
 	$tempFolder = Join-Path $env:TEMP ([System.Guid]::NewGuid().ToString())
-	$folderInZip = Join-Path $tempFolder $zipFolderName
 
-	New-Item -ItemType Directory -Path $folderInZip -Force | Out-Null
+	New-Item -ItemType Directory -Path $tempFolder -Force | Out-Null
 
 	foreach ($file in $files) {
 		$relativePath = $file.Substring($scriptDir.Length + 1)
-		$destinationPath = Join-Path $folderInZip $relativePath
+		$destinationPath = Join-Path $tempFolder $relativePath
 
 		New-Item -ItemType Directory -Path (Split-Path $destinationPath -Parent) -Force | Out-Null
 		Copy-Item -Path $file -Destination $destinationPath -Force
 	}
 
-	$subFolders = Get-ChildItem -Directory -Path $folderInZip
+	$subFolders = $files | ForEach-Object { Split-Path ($_ -replace [regex]::Escape($scriptDir), '') -Parent } | Sort-Object -Unique
+
 	foreach ($subFolder in $subFolders) {
+		$destinationSubFolder = Join-Path $tempFolder $subFolder
 		foreach ($extraFile in $extraFiles) {
-			Copy-Item -Path $extraFile -Destination $subFolder.FullName -Force
+			Copy-Item -Path $extraFile -Destination $destinationSubFolder -Force
 		}
 	}
 
