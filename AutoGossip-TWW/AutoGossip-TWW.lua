@@ -27,6 +27,9 @@ local gossips = {
 	["Foreman Pivk"] = {
 		120330, 120383, -- Earthcrawl Mines Delve
 	},
+	["Foreman Bruknar"] = {
+		120096, -- Earthen Waterworks Delve
+	},
 	["Stoneguard Benston"] = {
 		111366, -- Fungal Folly Delve
 	},
@@ -58,6 +61,7 @@ local gossips = {
 	},
 	["Merrix"] = {
 		122306, -- Quest "State of the Union" SKIP
+		121537, -- Quest "The Edicts"
 	},
 	["Titan Orb"] = {
 		121100, 121104, -- Quest "It's Probably Nothing"
@@ -109,6 +113,7 @@ local gossips = {
 		]]
 		120666, -- Quest "What We Still Have"
 		123526, -- Quest "Uniting Severed Threads"
+		121590, -- Quest "News From Below"
 	},
 	["Yamas the Provider"] = {
 		123902, -- Kej Vendor
@@ -173,6 +178,91 @@ local gossips = {
 	},
 	["Rooktender Lufsela"] = {
 		122017, -- Quest "After the Storm"
+		120784, -- Quest "Rook Rally"
+	},
+	["Adalar"] = {
+		122193, -- Quest "Conduit of the Southern Storm"
+	},
+	["Gurnot"] = {
+		122190, -- Quest "Conduit of the Southern Storm"
+	},
+	["Kothilde"] = {
+		122144, -- Quest "Conduit of the Southern Storm"
+	},
+	["Storage Chest"] = {
+		122158, -- Quest "Conduit of the Southern Storm"
+	},
+	["Undisciplined Earthen"] = {
+		120807, -- Quest "Goldbricking"
+	},
+	["Stormrider Kothilde"] = {
+		120979, -- Quest "Strays"
+	},
+	["Stormrider Adalar"] = {
+		120968, -- Quest "Strays"
+	},
+	["Stormrider Gurnot"] = {
+		120977, -- Quest "Strays"
+	},
+	["Shraubendre"] = {
+		--[[
+			The following gossip IDs are for the "ride along" option. While I haven't chosen this
+			option yet, I assume it is slower and may not be what everyone would want.
+			121165, -- Quest "Flight Training 101"
+			121199, -- Quest "Flight Training 102"
+			121198, -- Quest "Flight Training 103"
+			121565, -- Quest "Titanic Failsafe"
+		]]
+		122439, -- Quest "Flight Training 101"
+		122555, -- Quest "Flight Training 102"
+		121166, -- Quest "Flight Training 103"
+		122477, -- Quest "Titanic Failsafe"
+	},
+	["Bobbin"] = {
+		124125, -- Quest "Of Pacts and Patrons"
+	},
+	["Tulumun"] = {
+		124127, -- Quest "Of Pacts and Patrons"
+	},
+	["Anub'okki"] = {
+		124123, -- Quest "Of Pacts and Patrons"
+	},
+	["Lady Vinazian"] = {
+		124132, -- Quest "Of Pacts and Patrons"
+	},
+	["ZZ-01-47"] = {
+		120642, -- Quest "Small Friend, Big Plans"
+		121305, -- Quest "Factory Recon"
+	},
+	["\"Zee-Zee\""] = {
+		121561, -- Quest "The Motherlode"
+	},
+	["Reno Jackson"] = {
+		123520, -- Earthen Waterworks Rare
+	},
+	["High Speaker Brinthe"] = {
+		121606, -- Quest "It's Sabotage"
+	},
+	["Peculiar Fungi"] = {
+		121445, -- Mycomancer Cavern Delve
+	},
+	["Magni?"] = {
+		122875, -- Mycomancer Cavern Delve
+	},
+	["Research Papers"] = {
+		123353, -- The Underkeep Delve
+	},
+	["Alekk"] = {
+		121493, 121564, -- Mycomancer Cavern Delve
+	},
+	["Dead Arathi"] = {
+		122855, 122857, -- Smuggler's Treasure
+	},
+	["Smuggler's Treasure"] = {
+		122853, -- Smuggler's Treasure
+	},
+	["Ghos'opp"] = {
+		122531, -- Rumor
 	},
 }
 
