@@ -82,9 +82,9 @@ function AutoGossip.main:PLAYER_INTERACTION_MANAGER_FRAME_SHOW(event)
 					AutoGossip.print_branded("The NPC you are talking to has available quests. Hold |cffffff77ALT|r when speaking to them to forcefully pick their gossip option.")
 					break
 				end
-			else
-				C_GossipInfo.SelectOption(option.gossipOptionID)
 			end
+
+			C_GossipInfo.SelectOption(option.gossipOptionID)
 		end
 	end
 end
