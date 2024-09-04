@@ -133,9 +133,12 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Mithdran Dawntracker"] = {
 		52668, -- Quest "The Art of Taming"
 	},
+	["Daelya Twilightsbane"] = {
+		52641, 52643 -- Quest "A Paladin's Service"
+	},
 	["Warlord Breka Grimaxe"] = {
 		52784, -- Quest "Dungeon: Darkmaul Citadel"
-		51745,
+		51745, -- Skip Orgrimmar City Tour
 	},
 	["Chromie"] = {
 		51901, -- Timewalking campaign selection

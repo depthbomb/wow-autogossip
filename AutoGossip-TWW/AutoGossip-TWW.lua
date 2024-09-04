@@ -14,6 +14,7 @@ local gossips = {
 		120906, -- Quest "The Hallowed Path"
 		120738, -- Quest "The Light of the Dawntower"
 		120665, -- Quest "Kaheti Hospitality"
+		122377, -- Quest "A Light in the Dark"
 	},
 	["Alleria Windrunner"] = {
 		121810, -- Quest "A Candle in the Dark"
@@ -62,6 +63,8 @@ local gossips = {
 	["Merrix"] = {
 		122306, -- Quest "State of the Union" SKIP
 		121537, -- Quest "The Edicts"
+		123407, -- Quest "Return to Dornogal"
+		121397, -- Quest "The Councilward's Summons"
 	},
 	["Titan Orb"] = {
 		121100, 121104, -- Quest "It's Probably Nothing"
@@ -139,6 +142,7 @@ local gossips = {
 	},
 	["Executor Nizrek"] = {
 		121538, -- Quest "Into a Skittering City"
+		123406, -- Quest "Return to Dornogal"
 	},
 	["Nana Lek'kel"] = {
 		120653, 120657, -- Quest "Like a Spider on the Wall"
@@ -229,6 +233,7 @@ local gossips = {
 	},
 	["Lady Vinazian"] = {
 		124132, -- Quest "Of Pacts and Patrons"
+		123300, -- Quest "Forge a Pact"
 	},
 	["ZZ-01-47"] = {
 		120642, -- Quest "Small Friend, Big Plans"
@@ -242,6 +247,7 @@ local gossips = {
 	},
 	["High Speaker Brinthe"] = {
 		121606, -- Quest "It's Sabotage"
+		124159, -- Quest "Archives: The First Disc"
 	},
 	["Peculiar Fungi"] = {
 		121445, -- Mycomancer Cavern Delve
@@ -263,6 +269,49 @@ local gossips = {
 	},
 	["Ghos'opp"] = {
 		122531, -- Rumor
+	},
+	["Ru'murh"] = {
+		122543, 122544, 122545, -- Rumor
+	},
+	["Eirzay"] = {
+		122516, 122526, -- Rumor
+	},
+	["Thimble"] = {
+		123374, 123377, -- Weave-Rat Cache
+	},
+	["Aufta"] = {
+		121217, -- Quest "Dornogal's Benefactor"
+	},
+	["Gostrof"] = {
+		121218, -- Quest "Dornogal's Benefactor"
+	},
+	["Trader harthan"] = {
+		121219, 121405, -- Quest "Dornogal's Benefactor"
+	},
+	["Bevrusi"] = {
+		121407, 121409, 121412, 121413, 121406, -- Quest "Security Through Trade"
+		122742,                                 -- Quest "Opals and Runes"
+	},
+	["Vokgret"] = {
+		121505, 121504, -- Quest "The Market Reeve of the Forgegrounds"
+	},
+	["Loldren"] = {
+		121507, -- Quest "The Market Reeve of the Forgegrounds"
+	},
+	["Auditor's Manifest"] = {
+		121512, 123982, 123988, 121523, -- Quest "The Market Reeve of the Forgegrounds"
+	},
+	["Nernabel"] = {
+		121452, 121528, 121547, -- Quest "The Market Reeve of the Forgegrounds"
+	},
+	["Speakeasy Runeguard"] = {
+		121576, -- Quest "The Machine Speakeasy"
+	},
+	["Obstorn"] = {
+		121577, -- Quest "The Machine Speakeasy"
+	},
+	["Overseer Ardgrin"] = {
+		121524, -- Quest "Bad Business"
 	},
 }
 

@@ -15,7 +15,7 @@ Installing AutoGossip now also includes optional plugins that are enabled automa
 
 ## Known Issues
 
-- Automation sometimes does not work when talking to an NPC that is automated. Closing the gossip window and talking to them again usually works.
+- Automation sometimes does not work when talking to an NPC that is automated. Closing the gossip window and talking to them again usually works. This appears to be caused by not receiving the correct NPC name when talking to an NPC. I'm not sure what causes this yet but if you know then do let me know!
 
 ---
 

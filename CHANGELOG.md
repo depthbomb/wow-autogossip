@@ -1,3 +1,10 @@
+## 2024.09.04
+
+- Fixed automation not working when holding `ALT` when talking to an NPC that is also offering quests
+- Added automation for NPCs on _Exile's Reach_ for paladin characters (untested for Alliance)
+- Added automation for NPCs in _Battle of Dazar'alor_ (untested for Alliance)
+- Added additional automation for various _The War Within_ NPCs/objects
+
 ## 2024.09.02
 
 This update splits _AutoGossip_ into multiple addons that are included automatically. The main addon is now called _AutoGossip Core_ and will provide automation for all content prior to _The War Within_ with _The War Within_ content being split into a "plugin" addon. The plugin addon does nothing on its own and requires the core addon to be enabled. You can disable this plugin addon to "opt out" of NPC automation in _The War Within_ content.
