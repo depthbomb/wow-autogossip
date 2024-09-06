@@ -43,6 +43,7 @@ local gossips = {
 	},
 	["Thrall"] = {
 		121391, -- Quest "Impossible Odds"
+		123176, -- Skips Quest "A Poor Reception"
 	},
 	["Findorn"] = {
 		120682, -- Quest "Echoes of Compassion"
@@ -51,6 +52,7 @@ local gossips = {
 		120684, -- Quest "Echoes of Compassion"
 	},
 	["Baelgrim"] = {
+		120672, -- Quest "Bring the Thunder"
 		122130, -- Quest "Calling the Stormriders"
 		122154, -- Quest "Lasting Repairs" SKIP
 	},
@@ -60,7 +62,13 @@ local gossips = {
 	["Ronesh"] = {
 		120913,
 	},
+	["Adelgonn"] = {
+		122307, -- Quest "The Fourth Seat"
+		122368, -- Quest "Recompense" SKIP
+
+	},
 	["Merrix"] = {
+		120762, -- Quest "Recompense"
 		122306, -- Quest "State of the Union" SKIP
 		121537, -- Quest "The Edicts"
 		123407, -- Quest "Return to Dornogal"
@@ -248,6 +256,9 @@ local gossips = {
 	["High Speaker Brinthe"] = {
 		121606, -- Quest "It's Sabotage"
 		124159, -- Quest "Archives: The First Disc"
+	},
+	["Lamplighter Rathling"] = {
+		120540, 120541, -- Earthcrawl Mines Delve
 	},
 	["Peculiar Fungi"] = {
 		121445, -- Mycomancer Cavern Delve

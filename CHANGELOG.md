@@ -1,3 +1,9 @@
+## 2024.09.05
+
+- Potentially fixed automation not working in some cases
+- Added additional automation for NPCs in _The Cape of Stranglethorn_
+- Added additional automation for NPCs in _The War Within_ content
+
 ## 2024.09.04
 
 - Fixed automation not working when holding `ALT` when talking to an NPC that is also offering quests

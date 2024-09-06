@@ -238,4 +238,10 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Suffusion Mold"] = {
 		108250,
 	},
+	["Whiskey Slim"] = {
+		37826, -- Quest "A Giant's Feast"
+	},
+	["Freewheelin' Juntz Fitztittle"] = {
+		38202, -- Quest "Kill-Collect"
+	},
 })
