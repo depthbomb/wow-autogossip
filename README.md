@@ -13,10 +13,6 @@ There are two modifier keys that can be held down before talking to an NPC that 
 
 Installing AutoGossip now also includes optional plugins that are enabled automatically in the addon menu. For example, NPC automation in _The War Within_ is its own plugin so you may disable that addon to disable automation.
 
-## Known Issues
-
-- Automation sometimes does not work when talking to an NPC that is automated. Closing the gossip window and talking to them again usually works. This appears to be caused by not receiving the correct NPC name when talking to an NPC. I'm not sure what causes this yet but if you know then do let me know!
-
 ---
 
 This is my first attempt at a WoW addon so I'm still learning!

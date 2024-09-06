@@ -52,41 +52,51 @@ function AutoGossip.main:PLAYER_INTERACTION_MANAGER_FRAME_SHOW(event)
 	local is_gossip = event == Enum.PlayerInteractionType.Gossip
 	local has_available_quests = C_GossipInfo.GetNumAvailableQuests() > 0
 
-	----------------------------------------------------------------
-	-- Stop if SHIFT is held OR the interaction type is not Gossip
-	----------------------------------------------------------------
+	--[[
+		Stop if SHIFT is held OR the interaction type is not Gossip
+	]]
 	if should_halt then return end
 	if not is_gossip then return end
 
-	----------------------------------------------------------------
-	-- Stop if we can't find the NPC name in the gossip table or
-	-- there are no options.
-	----------------------------------------------------------------
-	local npc_name = GossipFrame.TitleContainer.TitleText:GetText()
-	if not npc_name then return end
+	--[[
+		Add a small delay before attempting to choose a gossip option.
 
-	local gossips = AutoGossip.GOSSIPS[npc_name]
-	if not gossips then return end
+		The UI doesn't seem to update the gossip frame's title instantly behind the scenes when it
+		is shown. This causes a bug where talking to an NPC who is automated after talking to a
+		different one resulted in no options being chosen because the event reported the wrong NPC
+		name.
+	]]
+	C_Timer.After(0.15, function()
+		--[[
+			Stop if we can't find the NPC name in the gossip table or there are no options.
+		]]
+		local npc_name = GossipFrame.TitleContainer.TitleText:GetText()
+		if not npc_name then return end
 
-	local options = C_GossipInfo.GetOptions()
-	if not options then return end
+		local gossips = AutoGossip.GOSSIPS[npc_name]
+		if not gossips then return end
 
-	----------------------------------------------------------------
-	-- Time to choose...
-	----------------------------------------------------------------
-	for _, option in ipairs(options) do
-		if tContains(gossips, option.gossipOptionID) then
-			-- Warn if there are available quests
-			if has_available_quests then
-				if not should_force then
-					AutoGossip.print_branded("The NPC you are talking to has available quests. Hold |cffffff77ALT|r when speaking to them to forcefully pick their gossip option.")
-					break
+		local options = C_GossipInfo.GetOptions()
+		if not options then return end
+
+		----------------------------------------------------------------
+		-- Time to choose...
+		----------------------------------------------------------------
+		for _, option in ipairs(options) do
+			if tContains(gossips, option.gossipOptionID) then
+				-- Warn if there are available quests
+				if has_available_quests then
+					if not should_force then
+						AutoGossip.print_branded("The NPC you are talking to has available quests. Hold |cffffff77ALT|r when speaking to them to forcefully pick their gossip option.")
+						break
+					end
 				end
-			end
 
-			C_GossipInfo.SelectOption(option.gossipOptionID)
+				C_GossipInfo.SelectOption(option.gossipOptionID)
+				break
+			end
 		end
-	end
+	end)
 end
 
 AutoGossip.main:RegisterEvent("ADDON_LOADED")
