@@ -66,7 +66,7 @@ function AutoGossip.main:PLAYER_INTERACTION_MANAGER_FRAME_SHOW(event)
 		different one resulted in no options being chosen because the event reported the wrong NPC
 		name.
 	]]
-	C_Timer.After(0.15, function()
+	C_Timer.After(0.25, function()
 		--[[
 			Stop if we can't find the NPC name in the gossip table or there are no options.
 		]]
