@@ -1,6 +1,7 @@
 local gossips = {
 	["Magni Bronzebeard"] = {
 		120882, -- Quest "Azeroth's Voice"
+		123513, -- Quest "Ghost of a Company Town"
 	},
 	["Archmage Khadgar"] = {
 		121395, -- Quest "A Mysterious Warning"
@@ -253,9 +254,33 @@ local gossips = {
 	["Reno Jackson"] = {
 		123520, -- Earthen Waterworks Rare
 	},
+	["Speaker Brinthe"] = {
+		122955, -- Quest "Pomp and Dire Circumstance"
+	},
+	["Igram Underwing"] = {
+		121192, -- Quest "Cogs in the Machine"
+	},
+	["Speak Jurlax"] = {
+		121195, -- Quest "Cogs in the Machine"
+	},
+	["Watcher Toki"] = {
+		121196, -- Quest "Cogs in the Machine"
+	},
+	["Emergency Militia"] = {
+		120320, -- Quest "Cogs in the Machine"
+	},
+	["Skitter"] = {
+		119957, 119961, -- Quest "New Candle, New Hope"
+	},
+	["Concerned Machine Speaker"] = {
+		121038, 121181, 121182, 121184, -- Quest "A Wrench in the Works"
+	},
 	["High Speaker Brinthe"] = {
 		121606, -- Quest "It's Sabotage"
 		124159, -- Quest "Archives: The First Disc"
+	},
+	["Gnawbles"] = {
+		123847, -- Quest "Everyday I'm Snufflin'"
 	},
 	["Lamplighter Rathling"] = {
 		120540, 120541, -- Earthcrawl Mines Delve
