@@ -1,3 +1,8 @@
+## 2024.09.06
+
+- Slightly increased the automation delay from 0.15s to 0.25s
+- Added additional automation for NPCs in _The War Within_ content
+
 ## 2024.09.05
 
 - Potentially fixed automation not working in some cases
