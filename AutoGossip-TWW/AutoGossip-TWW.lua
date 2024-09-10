@@ -349,6 +349,18 @@ local gossips = {
 	["Overseer Ardgrin"] = {
 		121524, -- Quest "Bad Business"
 	},
+	["Lionel"] = {
+		122296, -- Treasure
+	},
+	["Ryfus Sacredpyr"] = {
+		122886, 122892, 122900, 122905, 122913, 122918, 122916, -- Treasure
+	},
+	["Weaver's Instructions"] = {
+		121566, -- The Spiral Weave Delve
+	},
+	["Vetiverian"] = {
+		120255, -- Tak-Rethan Abyss Delve
+	},
 }
 
 AutoGossip.merge_tables(AutoGossip.GOSSIPS, gossips)

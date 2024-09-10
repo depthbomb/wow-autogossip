@@ -1,3 +1,8 @@
+## 2024.09.09
+
+- Added automation for NPCs on _Exile's Reach_ for monk characters (untested for Alliance)
+- Added additional automation for NPCs/objects in _The War Within_ content
+
 ## 2024.09.06
 
 - Slightly increased the automation delay from 0.15s to 0.25s

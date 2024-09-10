@@ -244,4 +244,7 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Freewheelin' Juntz Fitztittle"] = {
 		38202, -- Quest "Kill-Collect"
 	},
+	["Bo"] = {
+		52640, -- Quest "A Monk's Focus"
+	},
 })
