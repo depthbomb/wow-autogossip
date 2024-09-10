@@ -1,3 +1,9 @@
+## 2024.09.10
+
+- Added automation for various delve NPCs
+- Added automation for skipping the level-up campaign at _Brann Bronzebeard_
+- Added automation for NPCs on _Exile's Reach_ for warrior characters (untested for Alliance)
+
 ## 2024.09.09
 
 - Added automation for NPCs on _Exile's Reach_ for monk characters (untested for Alliance)

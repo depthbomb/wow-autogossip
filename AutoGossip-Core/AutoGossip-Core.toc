@@ -1,4 +1,4 @@
-## Interface: 110002
+## Interface: 110002, 110005
 ## Title: |cffffff77Auto|r|cff00c0ffGossip|r Core
 ## Version: v2024.09.09
 ## Author: depthbomb

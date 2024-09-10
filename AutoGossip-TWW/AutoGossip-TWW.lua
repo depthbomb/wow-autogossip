@@ -25,6 +25,8 @@ local gossips = {
 		121542,         -- Quest "The Bronzebeard Family"
 		120958, 120969, -- Quest "Delve into the Earth"
 		121598,         -- Quest "Ship It!"
+		123321,         -- Quest "Threats of Zekvir"
+		123770, 123771, -- Level-up Campaign Skip
 	},
 	["Foreman Pivk"] = {
 		120330, 120383, -- Earthcrawl Mines Delve
@@ -178,16 +180,16 @@ local gossips = {
 		120733, -- Threater Troupe Reporting In
 	},
 	["Stormrider Meirand"] = {
-		121930, -- Quest "After the Storm"
+		121930, 121934, -- Quest "After the Storm"
 	},
 	["Stormrider Vokmar"] = {
-		121936, 121948, -- Quest "After the Storm"
+		121936, 121948, 121949, -- Quest "After the Storm"
 	},
 	["Stormrider Edeltrau"] = {
-		121935, 121943, -- Quest "After the Storm"
+		121935, 121943, 121945, -- Quest "After the Storm"
 	},
 	["Stormrider Hunfrid"] = {
-		121937, 121938, -- Quest "After the Storm"
+		121937, 121938, 121941, -- Quest "After the Storm"
 	},
 	["Rooktender Lufsela"] = {
 		122017, -- Quest "After the Storm"
@@ -360,6 +362,15 @@ local gossips = {
 	},
 	["Vetiverian"] = {
 		120255, -- Tak-Rethan Abyss Delve
+	},
+	["Pagsly"] = {
+		120081, 120082, -- Earthen Waterworks Delve
+	},
+	["Vanathia"] = {
+		121526, -- The Dread Pit Delve
+	},
+	["Great Kyron"] = {
+		120767, -- Nightfall Sanctum Delve
 	},
 }
 

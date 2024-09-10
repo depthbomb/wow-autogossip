@@ -247,4 +247,7 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Bo"] = {
 		52640, -- Quest "A Monk's Focus"
 	},
+	["Hjalmar the Undying"] = {
+		51265, -- Quest "Hjalmar's Final Execution"
+	},
 })
