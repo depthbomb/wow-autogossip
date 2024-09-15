@@ -262,7 +262,7 @@ local gossips = {
 	["Igram Underwing"] = {
 		121192, -- Quest "Cogs in the Machine"
 	},
-	["Speak Jurlax"] = {
+	["Speaker Jurlax"] = {
 		121195, -- Quest "Cogs in the Machine"
 	},
 	["Watcher Toki"] = {
