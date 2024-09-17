@@ -130,6 +130,14 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 		54297, -- Quest "Right Beneath Their Eyes",
 		52664, -- Quest "A Hunter's Trap"
 	},
+	["Meredy Huntswell"] = {
+		49526, -- Quest "The Rescue of Meredy Huntswell"
+		50819, -- Quest "Right Beneat Their Eyes"
+	},
+	["Captain Garrick"] = {
+		51352, -- Quest "Dungeon: Darkmaul Citadel"
+		51396, -- Skip Stormwind City Tour
+	},
 	["Mithdran Dawntracker"] = {
 		52668, -- Quest "The Art of Taming"
 	},
@@ -141,7 +149,7 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 		51745, -- Skip Orgrimmar City Tour
 	},
 	["Chromie"] = {
-		51901, -- Timewalking campaign selection
+		51901, 51902, -- Timewalking campaign selection
 	},
 	["Scalecommander Viridia"] = {
 		51849, -- Quest "Final Orders"
@@ -249,5 +257,60 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	},
 	["Hjalmar the Undying"] = {
 		51265, -- Quest "Hjalmar's Final Execution"
+	},
+	["Zen'kala"] = {
+		107825, -- Trading Post (Horde)
+	},
+	["Shiri"] = {
+		107826, -- Trading Post (Horde)
+	},
+	["Wilder Seabraid"] = {
+		107824, -- Trading Post (Alliance)
+	},
+	["Tawny Seabraid"] = {
+		107827, -- Trading Post (Alliance)
+	},
+	["Andee Seabraid"] = {
+		121665, -- Trading Post (Dornogal)
+	},
+	["Teha"] = {
+		121672, -- Trading Post (Dornogal)
+	},
+	["Naleidea Rivergleam"] = {
+		123080, -- Quest "Delve Hunter"
+	},
+	["Architect Brokfor"] = {
+		122494, -- Quest "Thespians at the Proscenium"
+	},
+	["Highlord Darion Mograine"] = {
+		51183, -- Quest "Defender of Azeroth"
+	},
+	["Transient"] = {
+		38009, -- Quest "Murder Was The Case That They Gave Me"
+	},
+	["Homeless Stormwind Citizen"] = {
+		38009, -- Quest "Murder Was The Case That They Gave Me"
+	},
+	["West Plains Drifter"] = {
+		38009, -- Quest "Murder Was The Case That They Gave Me"
+	},
+	["Thor"] = {
+		32678, -- Flightmaster
+	},
+	["Drizza Sidestabber"] = {
+		52644, 52645, -- Quest "A Rogue's End"
+	},
+	["Priestess Hu'rala"] = {
+		37127, -- Quest "See Raptor"
+		37128, -- Quest "Be Raptor"
+	},
+	["Tan'shang"] = {
+		37412, -- Quest "Be Raptor"
+	},
+	["Tenjiyu"] = {
+		36965, 36966, 37129, -- Quest "Be Raptor"
+	},
+	["Chiyu"] = {
+		36967, -- Quest "Be Raptor"
 	},
 })

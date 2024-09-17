@@ -134,6 +134,7 @@ local gossips = {
 	},
 	["Y'tekhi"] = {
 		122839, -- Renown Quartermaster
+		122838, -- Choose a Pact
 	},
 	["Flynn Fairwind"] = {
 		121919, -- Quest "Scrappy Straggler"
@@ -277,6 +278,9 @@ local gossips = {
 	["Concerned Machine Speaker"] = {
 		121038, 121181, 121182, 121184, -- Quest "A Wrench in the Works"
 	},
+	["Agitated Machine Speaker"] = {
+		121038, 121181, 121182, 121184, -- Quest "A Wrench in the Works"
+	},
 	["High Speaker Brinthe"] = {
 		121606, -- Quest "It's Sabotage"
 		124159, -- Quest "Archives: The First Disc"
@@ -286,6 +290,9 @@ local gossips = {
 	},
 	["Lamplighter Rathling"] = {
 		120540, 120541, -- Earthcrawl Mines Delve
+	},
+	["Chief Dinaire"] = {
+		121539, 121541, -- Mycomancer Cavern Delve
 	},
 	["Peculiar Fungi"] = {
 		121445, -- Mycomancer Cavern Delve

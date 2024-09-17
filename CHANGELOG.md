@@ -1,3 +1,17 @@
+## 2024.09.17
+
+- Fixed a typo resulting in _Speaker Jurlax_ not being automated
+- Added missing automation for NPCs related to the _A Wrench in the Works_ quest
+- Added missing automation for NPCs related to the _After the Storm_ quest
+- Added automation for an NPC related to the _Threats of Zekvir_ quest
+- Added automation for _Y'tekhi_ to choose a pact
+- Added automation for NPCs on _Exile's Reach_ for Alliance characters
+- Added automation for NPCs on _Exile's Reach_ for rogue characters (untested for Alliance)
+- Added automation for Horde, Alliance, and Dornogal Trading Post NPCs
+- Added automation for various NPCs/objects in early Horde and Alliance Cataclysm Timewalking quests
+- Added automation for an NPC in the _Molten Core_ instance
+- Added automation for an NPC in the _Ny'alotha, the Waking City_ instance
+
 ## 2024.09.10
 
 - Added automation for various delve NPCs
