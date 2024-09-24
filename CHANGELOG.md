@@ -5,7 +5,7 @@
 - Added automation for NPCs/objects related to the _Economical Request_ quest
 - Adding automation for NPCs/objects related to the _Battle For Azeroth_ intro questline for Horde
 - Started adding automation for NPCs/objects related to _Battle For Azeroth_ endgame questlines
-- Added automation to _Kalendormu_ to skip to unlocking _Obsidian Citadel_ engame activities
+- Added automation to _Kalendormu_ to skip to unlocking _Obsidian Citadel_ endgame activities
 - Added automation to _Coren Direbrew_ in the... _Coren Direbrew_ instance
 
 ## 2024.09.17
