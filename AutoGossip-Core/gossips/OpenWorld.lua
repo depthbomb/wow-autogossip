@@ -313,4 +313,47 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Chiyu"] = {
 		36967, -- Quest "Be Raptor"
 	},
+	["Nathanos Blightcaller"] = {
+		49081, -- Quest "The Stormwind Extraction" SKIP
+	},
+	["Princess Talanji"] = {
+		47851, -- Quest "Rastakhan"
+	},
+	["Captain Rez'okun"] = {
+		48455, -- Quest "Send the Fleet"
+	},
+	["Chief Telemancer Oculeth"] = {
+		50621, -- Quest "Descent"
+	},
+	["Magni Bronzebeard"] = {
+		48175, -- Quest "The Heart of Azeroth"
+	},
+	["MOTHER"] = {
+		51120, -- Quest "MOTHER Knows Best"
+		51119, -- Quest "A Disturbance Beneath the Earth"
+		51123, -- Quest "The Heart Forge"
+	},
+	["Spiritwalker Ebonhorn"] = {
+		51053, -- Quest "A Disturbance Beneath the Earth"
+		49616, -- Quest "A Friendly Face"
+	},
+	["Navarrogg"] = {
+		51054, -- Quest "Take My Hand"
+		49828, -- Quest "A Friendly Face"
+	},
+	["Spiritwalker Ussoh"] = {
+		50288, -- Quest "Scouting the Palace"
+	},
+	["Telur"] = {
+		50091, -- Quest "Settling In"
+	},
+	["Vim Brineheart"] = {
+		50620, -- Quest "Settling In"
+	},
+	["Valeera Sanguinar"] = {
+		51410, -- Quest "Return of the Black Prince"
+	},
+	["Kalendormu"] = {
+		107539, -- Unlock Obsidian Citadel endgame activities
+	},
 })

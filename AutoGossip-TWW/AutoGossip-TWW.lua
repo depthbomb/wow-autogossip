@@ -297,14 +297,17 @@ local gossips = {
 	["Peculiar Fungi"] = {
 		121445, -- Mycomancer Cavern Delve
 	},
+	["Aliya Hillhelm"] = {
+		121536, -- Mycomancer Cavern Delve
+	},
+	["Alekk"] = {
+		121493, 121564, -- Mycomancer Cavern Delve
+	},
 	["Magni?"] = {
 		122875, -- Mycomancer Cavern Delve
 	},
 	["Research Papers"] = {
 		123353, -- The Underkeep Delve
-	},
-	["Alekk"] = {
-		121493, 121564, -- Mycomancer Cavern Delve
 	},
 	["Dead Arathi"] = {
 		122855, 122857, -- Smuggler's Treasure
@@ -376,8 +379,23 @@ local gossips = {
 	["Vanathia"] = {
 		121526, -- The Dread Pit Delve
 	},
+	["Vant"] = {
+		121508, 123392, -- The Dread Pit Delve
+	},
 	["Great Kyron"] = {
 		120767, -- Nightfall Sanctum Delve
+	},
+	["Keyrra Flamestonge"] = {
+		121756, -- Quest "Honor Your Efforts"
+	},
+	["Venrie Flitter"] = {
+		122295, -- World Quest "Into Shadows"
+	},
+	["Auralia Steelstrike"] = {
+		122432, -- Quest "Economical Request"
+	},
+	["Letter of Recommendation"] = {
+		122416, 122431, 122427, 122423, -- Quest "Economical Request"
 	},
 }
 
