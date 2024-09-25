@@ -1,3 +1,7 @@
+## 2024.09.25
+
+- Fixed automation for _Coren Direbrew_ not being complete
+
 ## 2024.09.24
 
 - Added automation for various delve NPCs
