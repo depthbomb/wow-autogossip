@@ -313,6 +313,9 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Chiyu"] = {
 		36967, -- Quest "Be Raptor"
 	},
+	["Chabal"] = {
+		39380, -- Quest "High Priestess Jeklik"
+	},
 	["Nathanos Blightcaller"] = {
 		49081, -- Quest "The Stormwind Extraction" SKIP
 	},
@@ -354,6 +357,12 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 		51410, -- Quest "Return of the Black Prince"
 	},
 	["Kalendormu"] = {
-		107539, -- Unlock Obsidian Citadel endgame activities
+		107539, 107542, -- Unlock Obsidian Citadel endgame activities
+	},
+	["Wrathion"] = {
+		55171, -- World Quest "Allegiance to One"
+	},
+	["Sabellian"] = {
+		55172, -- World Quest "Allegiance to One"
 	},
 })

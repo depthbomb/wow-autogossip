@@ -1,3 +1,12 @@
+## 2024.10.01
+
+- Added missing automation to _Baelgrim_ for the _Bring the Thunder_ quest
+- Added a potential automation for an NPC during a _Theater Troupe_ task
+- Add partial automation for the _Icecrown Citadel_ instance
+- Added missing automation to _Kalendormu_ to skip to unlocking _Obsidian Citadel_ endgame activities
+- Added automation to _Wrathion_ and _Sabellian_ for the _Allegiance to One_ world quest
+- Added automation for an NPC related to the _High Priestess Jeklik_ quest
+
 ## 2024.09.25
 
 - Fixed automation for _Coren Direbrew_ not being complete

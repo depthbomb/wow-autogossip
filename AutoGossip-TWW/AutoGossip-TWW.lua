@@ -55,9 +55,9 @@ local gossips = {
 		120684, -- Quest "Echoes of Compassion"
 	},
 	["Baelgrim"] = {
-		120672, -- Quest "Bring the Thunder"
-		122130, -- Quest "Calling the Stormriders"
-		122154, -- Quest "Lasting Repairs" SKIP
+		120672, 129678, -- Quest "Bring the Thunder"
+		122130,         -- Quest "Calling the Stormriders"
+		122154,         -- Quest "Lasting Repairs" SKIP
 	},
 	["Breem"] = {
 		120909,
@@ -178,7 +178,11 @@ local gossips = {
 		121304, -- Quest "Glow in the Dark"
 	},
 	["Stage Manager Huberta"] = {
-		120733, -- Threater Troupe Reporting In
+		120733, -- Theater Troupe Reporting In
+	},
+	["Feuding Actor"] = {
+		120457, -- Theater Troupe event -- im not sure if this is always the correct choice as i
+                -- didn't have much time to test it
 	},
 	["Stormrider Meirand"] = {
 		121930, 121934, -- Quest "After the Storm"
