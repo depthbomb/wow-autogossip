@@ -125,6 +125,9 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Lothos Riftwaker"] = {
 		32976, -- Molten Core teleport
 	},
+	["Orb of Command"] = {
+		29682, -- Blackwing Lair teleport
+	},
 	["Herbert Gloomburst"] = {
 		52949, -- Quest "The Rescue of Herbert Gloomburst"
 		54297, -- Quest "Right Beneath Their Eyes",
@@ -364,5 +367,33 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	},
 	["Sabellian"] = {
 		55172, -- World Quest "Allegiance to One"
+	},
+	["Valdred Moray"] = {
+		39542, 39543, 39803, -- Quest "The Wakening"
+	},
+	["Lilian Voss"] = {
+		39163, 39164, -- Quest "The Wakening"
+		38950,        -- Quest "The Truth of the Grave"
+	},
+	["Marshal Redpath"] = {
+		39165, 39166, -- Quest "The Wakening"
+	},
+	["Szabo"] = {
+		38610, -- Quest "The New You"
+	},
+	["Gappy Silvertooth"] = {
+		38200, -- Quest "The New You"
+	},
+	["Missa Spekkies"] = {
+		38065, -- Quest "The New You"
+	},
+	["Gobber"] = {
+		37242, -- Bank access
+	},
+	["Holgar Stormaxe"] = {
+		47485, -- Legion intro questline skip
+	},
+	["Darkmoon Faire Mystic Mage"] = {
+		40007, -- DMF teleport
 	},
 })

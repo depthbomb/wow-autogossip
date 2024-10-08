@@ -32,7 +32,7 @@ local gossips = {
 		120330, 120383, -- Earthcrawl Mines Delve
 	},
 	["Foreman Bruknar"] = {
-		120096, -- Earthen Waterworks Delve
+		120018, 120096, -- Earthen Waterworks Delve
 	},
 	["Stoneguard Benston"] = {
 		111366, -- Fungal Folly Delve
@@ -128,6 +128,7 @@ local gossips = {
 		120666, -- Quest "What We Still Have"
 		123526, -- Quest "Uniting Severed Threads"
 		121590, -- Quest "News From Below"
+		123256, -- Quest "To Kill a Queen" exit instance
 	},
 	["Yamas the Provider"] = {
 		123902, -- Kej Vendor
@@ -400,6 +401,9 @@ local gossips = {
 	},
 	["Letter of Recommendation"] = {
 		122416, 122431, 122427, 122423, -- Quest "Economical Request"
+	},
+	["Kriz the \"Loyal\""] = {
+		123174, -- Quest "To Kill a Queen" story mode raid
 	},
 }
 

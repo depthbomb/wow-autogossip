@@ -1,8 +1,23 @@
+## 2024.10.08
+
+- Added missing automation to _Foreman Bruknar_ in the _Earthen Waterworks_ delve
+- Added automation to _Kriz the "Loyal"_ to enter the story mode raid for the quest _To Kill a Queen_
+- Added automation to _Widow Arak'nai_ to leave the instance for the _To Kill a Queen_ quest
+- Added automation for the following instances:
+  - _Blackwing Lair_
+  - _Trial of the Crusader_ (untested for Alliance, should work)
+  - _Celestial Tournament_ (incomplete)
+- Added automation to the _Orb of Command_ allowing access to the _Blackwing Lair_ instance
+- Added automation to _Holgar Stormaxe_ to skip the _Legion_ intro questline
+- Added automation to _Gobber_
+- Added partial automation to the foresaken intro questline
+- Added automation to _Darkmoon Faire Mystic Mages_ to teleport you to the _Darkmoon Faire_ portal
+
 ## 2024.10.01
 
 - Added missing automation to _Baelgrim_ for the _Bring the Thunder_ quest
 - Added a potential automation for an NPC during a _Theater Troupe_ task
-- Add partial automation for the _Icecrown Citadel_ instance
+- Added partial automation for the _Icecrown Citadel_ instance
 - Added missing automation to _Kalendormu_ to skip to unlocking _Obsidian Citadel_ endgame activities
 - Added automation to _Wrathion_ and _Sabellian_ for the _Allegiance to One_ world quest
 - Added automation for an NPC related to the _High Priestess Jeklik_ quest
