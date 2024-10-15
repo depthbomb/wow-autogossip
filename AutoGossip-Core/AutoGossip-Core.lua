@@ -15,13 +15,15 @@ AutoGossip.merge_tables = function(target, source)
 	end
 end
 
---[[
-	This table will hold an array of gossip option IDs keyed by the NPC that provides said options.
-	Use `/dump C_GossipInfo.GetOptions()` with the gossip window open to get the option IDs.
-]]
 AutoGossip.GOSSIPS = AutoGossip.GOSSIPS or {}
 
 AutoGossip.main = CreateFrame("Frame")
+
+local function load_addon(addonname)
+	if C_AddOns.IsAddOnLoadOnDemand(addonname) and not C_AddOns.IsAddOnLoaded(addonname) then
+		C_AddOns.LoadAddOn(addonname)
+	end
+end
 
 function AutoGossip.main:ADDON_LOADED(addonName)
 	if addonName == "AutoGossip-Core" then
@@ -43,6 +45,20 @@ function AutoGossip.main:ADDON_LOADED(addonName)
 
 			AutoGossip_SeenModularizationDisclaimer = true
 		end
+	end
+end
+
+function AutoGossip.main:PLAYER_ENTERING_WORLD()
+	local in_instance, _ = IsInInstance()
+	if in_instance then
+		load_addon('AutoGossip-Instances')
+	end
+end
+
+function AutoGossip.main:ZONE_CHANGED_NEW_AREA()
+	local in_instance, _ = IsInInstance()
+	if in_instance then
+		load_addon('AutoGossip-Instances')
 	end
 end
 
@@ -100,6 +116,8 @@ function AutoGossip.main:PLAYER_INTERACTION_MANAGER_FRAME_SHOW(event)
 end
 
 AutoGossip.main:RegisterEvent("ADDON_LOADED")
+AutoGossip.main:RegisterEvent("PLAYER_ENTERING_WORLD")
+AutoGossip.main:RegisterEvent("ZONE_CHANGED_NEW_AREA")
 AutoGossip.main:RegisterEvent("PLAYER_INTERACTION_MANAGER_FRAME_SHOW")
 AutoGossip.main:SetScript("OnEvent", function(self, event, ...)
 	self[event](self, ...)

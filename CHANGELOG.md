@@ -1,3 +1,12 @@
+## 2024.10.15
+
+- Gossip automation for instance NPCs has been moved into a separate plugin addon that is loaded on demand when entering an instance
+- Added automation to _Teleportologist Fozlebub_
+- Added automation to various NPCs relating to the demon hunter starting questline
+- Added automation to _Archmage Khadgar_ for the quest _In the Blink of an Eye_
+- Added remaining automation for NPCs in _Celestial Tournament_
+
+
 ## 2024.10.08
 
 - Added missing automation to _Foreman Bruknar_ in the _Earthen Waterworks_ delve

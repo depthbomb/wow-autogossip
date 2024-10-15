@@ -93,9 +93,14 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Archmage Khadgar"] = {
 		55626,  -- Quest "Whispers on the Winds"
 		111167, -- Quest "Something Worth Celebrating"
+		122797, -- Skip to timewalking campaign for Demon Hunters
+		45530,  -- Quest "In the Blink of an Eye"
 	},
 	["Alexstrasza the Life-Binder"] = {
 		120503, -- Quest "Fair Skies and Strong Winds"
+	},
+	["Lady Sylvanas Windrunner"] = {
+		449962, -- Quest "Demons Among Them"
 	},
 	["Alleria Windrunner"] = {
 		120217, -- Quest "The Harbinger"
@@ -395,5 +400,51 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	},
 	["Darkmoon Faire Mystic Mage"] = {
 		40007, -- DMF teleport
+	},
+	["Teleportologist Fozlebub"] = {
+		40872, -- DMF cannon teleport
+	},
+	["Ashtongue Mystic"] = {
+		45047, -- Quest "Enter the Illidari: Coilskar"
+	},
+	["Sevis Brightflame"] = {
+		45048, 45101, -- Quest "Enter the Illidari: Shivarra"
+	},
+	["Lady S'theno"] = {
+		44410, -- Quest "Orders for Your Captains"
+	},
+	["Matron Mother Malevolence"] = {
+		44865, -- Quest "Orders for Your Captains"
+	},
+	["Battlelord Gaardoun"] = {
+		42930, -- Quest "Orders for Your Captains"
+	},
+	["Jace Darkweaver"] = {
+		45064, -- Quest "Give Me Sight Beyond Sight"
+	},
+	["Allari the Souleater"] = {
+		44405, -- Quest "Cry Havoc and Let Slip the Illidari!"
+	},
+	["Kayn Sunfury"] = {
+		44408, -- Quest "Cry Havoc and Let Slip the Illidari!"
+	},
+	["Kor'vas Bloodthorn"] = {
+		44442, -- Quest "Cry Havoc and Let Slip the Illidari!"
+		44913, -- Quest "A New Direction"
+	},
+	["Cyana Nightglaive"] = {
+		44440, -- Quest "Cry Havoc and Let Slip the Illidari!"
+	},
+	["Mannethrel Darkstar"] = {
+		44661, -- Quest "Cry Havoc and Let Slip the Illidari!"
+	},
+	["Izal Whitemoon"] = {
+		44646, -- Quest "On Felbat Wings"
+	},
+	["High Overlord Saurfang"] = {
+		45115, -- Quest "Audience with the Warchief"
+	},
+	["Kirin Tor Emissary"] = {
+		51032, -- Quest "In the Blink of an Eye"
 	},
 })

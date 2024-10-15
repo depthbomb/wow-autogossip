@@ -1,0 +1,29 @@
+## Interface: 110002, 110005
+## Title: |cffffff77Auto|r|cff00c0ffGossip|r Instances
+## Version: v2024.10.15
+## Author: depthbomb
+## Notes: A plugin for |cffffff77Auto|r|cff00c0ffGossip|r that adds gossip automation to instances.
+## IconTexture: 3193419
+## LoadOnDemand: 1
+## RequiredDeps: AutoGossip-Core
+
+## X-Category: Questing & Leveling
+## X-Curse-Project-ID: 1073819
+
+AutoGossip-Instances.lua
+instances/BattleOfDazaralor.lua
+instances/BlackwingLair.lua
+instances/CelestialTournament.lua
+instances/CorenDirebrew.lua
+instances/CullingOfStratholme.lua
+instances/EndTime.lua
+instances/HourOfTwilight.lua
+instances/IcecrownCitadel.lua
+instances/MoltenCore.lua
+instances/NyalothaTheWakingCity.lua
+instances/OldHillsbradFoothills.lua
+instances/RagefireChasm.lua
+instances/TrialOfTheCrusader.lua
+instances/Uldaman.lua
+instances/WailingCaverns.lua
+instances/ZulFarrak.lua
