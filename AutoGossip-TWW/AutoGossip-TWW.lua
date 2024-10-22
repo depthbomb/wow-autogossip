@@ -37,12 +37,31 @@ local gossips = {
 	["Stoneguard Benston"] = {
 		111366, -- Fungal Folly Delve
 	},
+	["Patreux"] = {
+		113928, -- Fungal Folly Delve
+	},
+	["One Tusk"] = {
+		113930, -- Fungal Folly Delve
+	},
+	["Kasthrik"] = {
+		122745, -- Fungal Folly Delve
+	},
+	["Twizzle Runabout"] = {
+		113939, -- Fungal Folly Delve
+	},
+	["Bill"] = {
+		113941, -- Fungal Folly Delve
+	},
+	["Raen Dawncavalyr"] = {
+		121578, -- The Sinkhole Delve
+	},
 	["Moira Thaurissan"] = {
 		120506, -- Quest "Dark Iron from Above"
 		121591, -- Quest "The Fleet Arrives"
 	},
 	["Dagran Thaurissan II"] = {
 		122851, -- Quest "There's Always Another Secret"
+		122752, -- Kriegval's Rest Delve
 	},
 	["Thrall"] = {
 		121391, -- Quest "Impossible Odds"
@@ -311,6 +330,12 @@ local gossips = {
 	["Magni?"] = {
 		122875, -- Mycomancer Cavern Delve
 	},
+	["Lamplighter Havrik Chayvn"] = {
+		121408, -- Skittering Breach Delve
+	},
+	["Partiall-Chewed Goblin"] = {
+		120132, -- Tak-Rethan Delve
+	},
 	["Research Papers"] = {
 		123353, -- The Underkeep Delve
 	},
@@ -404,6 +429,23 @@ local gossips = {
 	},
 	["Kriz the \"Loyal\""] = {
 		123174, -- Quest "To Kill a Queen" story mode raid
+	},
+	["Concerned Dornogal Citizen"] = {
+		122511, -- Quest "An Oddball in Dornogal"
+		122512,
+		123322,
+	},
+	["Arathi Journal"] = {
+		122552, -- Quest "The Pillage of Freywold Village"
+	},
+	["Conspicuous Arathi Candle"] = {
+		122553, -- Quest "The Pillage of Freywold Village"
+	},
+	["Arathi Soldier"] = {
+		122554, -- Quest "The Pillage of Freywold Village"
+	},
+	["Celle Wilde"] = {
+		121697, -- Flight Master to exit The Hungering Pool
 	},
 }
 

@@ -1,3 +1,14 @@
+## 2024.10.22
+
+- Added automation for the 20th anniversary quest _Shopping Spree!_
+- Painstakingly added automation to all of _Historian Ju'pa_'s trivia questions
+  - It is possible I missed a few and if I did then they will be added in the coming days
+- Added missing automation for various delves
+- Added automation for the following quests:
+  - _An Oddball in Dornogal_
+  - _The Pillage of Freywold Village_
+- Added automation to take a flight path to exit _The Hungering Pool_
+
 ## 2024.10.15
 
 - Gossip automation for instance NPCs has been moved into a separate plugin addon that is loaded on demand when entering an instance
