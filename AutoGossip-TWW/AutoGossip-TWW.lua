@@ -333,7 +333,7 @@ local gossips = {
 	["Lamplighter Havrik Chayvn"] = {
 		121408, -- Skittering Breach Delve
 	},
-	["Partiall-Chewed Goblin"] = {
+	["Partially-Chewed Goblin"] = {
 		120132, -- Tak-Rethan Delve
 	},
 	["Research Papers"] = {
@@ -344,6 +344,9 @@ local gossips = {
 	},
 	["Smuggler's Treasure"] = {
 		122853, -- Smuggler's Treasure
+	},
+	["One-Eyed Thak"] = {
+		122348, 122347, 122346, -- Treasure
 	},
 	["Ghos'opp"] = {
 		122531, -- Rumor
