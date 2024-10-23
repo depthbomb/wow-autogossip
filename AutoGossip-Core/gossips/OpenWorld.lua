@@ -449,12 +449,15 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	},
 	["Traeya"] = {
 		123908, -- Quest "Shopping Spree!"
+		124116, -- Vendor
 	},
 	["Historian Ma'di"] = {
 		123909, -- Quest "Shopping Spree!"
+		124115, -- Vendor
 	},
 	["Bobadormu"] = {
 		123910, -- Quest "Shopping Spree!"
+		124695, -- Vendor
 	},
 	["Historian Ju'pa"] = {
 		-- Quest "A Time to Reflect"
@@ -549,5 +552,14 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 		46080,
 		42088,
 		46139,
+	},
+	["Storekeeper Reginald"] = {
+		124071, -- Vendor
+	},
+	["Time-Displaced Jorek Ironside"] = {
+		49535, -- Vendor
+	},
+	["Breanni"] = {
+		124053, -- Vendor
 	},
 })
