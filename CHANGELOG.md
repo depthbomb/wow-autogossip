@@ -1,6 +1,6 @@
 ## 2024.10.22
 
-- Added automation for the 20th anniversary quest _Shopping Spree!_
+- Added automation for the 30th anniversary quest _Shopping Spree!_
 - Painstakingly added automation to all of _Historian Ju'pa_'s trivia questions
   - It is possible I missed a few and if I did then they will be added in the coming days
 - Added missing automation for various delves
