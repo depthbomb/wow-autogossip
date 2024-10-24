@@ -1,3 +1,15 @@
+## 2024.10.24
+
+- Added automation to _Historian Llore_
+- Added automation to the _Remedial Lessons_ world quest
+- Added automation to the following instances:
+  - _Antorus, the Burning Throne_
+  - _Castle Nathria_
+  - _Sepulcher of the First Ones_
+  - _Spires of Ascension_
+  - _Torghast_ (incomplete)
+  - _Trial of Valor_
+
 ## 2024.10.23
 
 - Added automation to 20th anniversary NPC vendors that only have a single option to view their goods
