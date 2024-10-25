@@ -659,4 +659,7 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Voitha"] = {
 		49887, -- World Quest "Remedial Lessons"
 	},
+	["Albon the Watcher"] = {
+		111060, -- World Quest "True Sight"
+	},
 })

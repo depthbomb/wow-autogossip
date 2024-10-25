@@ -1,3 +1,11 @@
+## 2024.10.25
+
+- Added automation to the following instances:
+  - _Vault of the Incarnates_ (potentially incomplete, could not solo Broodkeeper lol)
+  - _Scarlet Monastery_ (_Headless Horseman_ variant)
+  - _Dire Maul_ (including tribute run, potentially incomplete)
+- Added automation for the _True Sight_ world quest
+
 ## 2024.10.24
 
 - Added automation to _Historian Llore_
