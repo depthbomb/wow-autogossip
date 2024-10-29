@@ -1,6 +1,6 @@
 ## Interface: 110005
 ## Title: |cffffff77Auto|r|cff00c0ffGossip|r Instances
-## Version: v2024.10.25
+## Version: v2024.10.29
 ## Author: depthbomb
 ## Notes: A plugin for |cffffff77Auto|r|cff00c0ffGossip|r that adds gossip automation to instances.
 ## IconTexture: 3193419

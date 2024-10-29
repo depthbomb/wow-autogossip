@@ -662,4 +662,13 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Albon the Watcher"] = {
 		111060, -- World Quest "True Sight"
 	},
+	["Ratts"] = {
+		123577, 123578, -- Quest "Tat Big Meanie"
+	},
+	["Maru"] = {
+		124413, -- Quest "A Whiff of Help"
+	},
+	["Gerald"] = {
+		123382, -- Guest Relations Secret Crate
+	},
 })

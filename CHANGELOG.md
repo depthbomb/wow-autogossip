@@ -1,3 +1,9 @@
+## 2024.10.29
+
+- Added automation for the first set of Secrets of Azeroth quest
+- Added automation for the first set of secret crates
+- Added automation for more rumors
+
 ## 2024.10.25
 
 - Added automation to the following instances:

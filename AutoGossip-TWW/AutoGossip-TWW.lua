@@ -349,6 +349,7 @@ local gossips = {
 		122348, 122347, 122346, -- Treasure
 	},
 	["Ghos'opp"] = {
+		122528, -- Rumor
 		122531, -- Rumor
 	},
 	["Ru'murh"] = {
@@ -356,6 +357,9 @@ local gossips = {
 	},
 	["Eirzay"] = {
 		122516, 122526, -- Rumor
+	},
+	["Dor'garad"] = {
+		121608, -- Rumor
 	},
 	["Thimble"] = {
 		123374, 123377, -- Weave-Rat Cache
