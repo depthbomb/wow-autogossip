@@ -1,3 +1,8 @@
+## 2024.11.01
+
+- Added automation for missing trivia answers for _Historian Ju'pa_ and _Historian Llore_
+- Added automation for new Secrets of Azeroth quests
+
 ## 2024.10.29
 
 - Added automation for the first set of Secrets of Azeroth quest

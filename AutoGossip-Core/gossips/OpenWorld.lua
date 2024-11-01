@@ -552,6 +552,8 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 		46080,
 		42088,
 		46139,
+		46094,
+		46017,
 	},
 	["Historian Llore"] = {
 		-- Quest "A Time to Reflect"
@@ -646,6 +648,8 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 		46080,
 		42088,
 		46139,
+		46094,
+		46017,
 	},
 	["Storekeeper Reginald"] = {
 		124071, -- Vendor
@@ -670,5 +674,40 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	},
 	["Gerald"] = {
 		123382, -- Guest Relations Secret Crate
+	},
+	["Duryllin"] = {
+		123615, -- Quest "The "Great" Detective"
+	},
+	["Ellanoir"] = {
+		123609, 123608, -- Quest "The "Great" Detective"
+	},
+	["Juddson Rakes"] = {
+		123611, 123610, -- Quest "The "Great" Detective"
+	},
+	["Scrapes"] = {
+		123674, -- Quest "The "Great" Detective"
+		123711, -- Quest "The Trail's Gone Cold"
+	},
+	["Nat Pagle"] = {
+		123668, -- Quest "The "Great" Detective"
+	},
+	["Julia Henning"] = {
+		123672, -- Quest "The "Great" Detective"
+	},
+	["Athelton Jones"] = {
+		123678, 123684, -- Quest "The "Great" Detective"
+		123736, 123735, -- Quest "Spot the Difference"
+	},
+	["Rexxar"] = {
+		123717, 123714, -- Quest "The Trail's Gone Cold"
+	},
+	["Leeroy Jenkins"] = {
+		123739, -- Quest "Spot the Difference"
+	},
+	["Hemet Nesingwary Sr."] = {
+		123737, -- Quest "Spot the Difference"
+	},
+	["Addie Fizzlebog"] = {
+		123738, -- Quest "Spot the Difference"
 	},
 })
