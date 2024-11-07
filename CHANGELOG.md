@@ -1,3 +1,9 @@
+## 2024.11.07
+
+- Added automation to some NPCs relating to the blood elf starting zone
+- Added automation to NPCs/objects for the quest _Operation Toy Rescue_
+- Added more automation for rumor NPCs
+
 ## 2024.11.01
 
 - Added automation for missing trivia answers for _Historian Ju'pa_ and _Historian Llore_

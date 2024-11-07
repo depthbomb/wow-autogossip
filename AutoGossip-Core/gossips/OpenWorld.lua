@@ -248,6 +248,9 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Secured Shipment"] = {
 		108274, -- Secured Shipment looting
 	},
+	["Prospector Anvilward"] = {
+		32333, 32784, -- Quest "The Dwarven Spy"
+	},
 	["Suffusion Crucible"] = {
 		108249,
 	},
@@ -709,5 +712,11 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	},
 	["Addie Fizzlebog"] = {
 		123738, -- Quest "Spot the Difference"
+	},
+	["Yennu"] = {
+		124578, 124577, -- Quest "Operation Toy Rescue"
+	},
+	["Nuts"] = {
+		124581, 124582, -- Quest "Operation Toy Rescue"
 	},
 })
