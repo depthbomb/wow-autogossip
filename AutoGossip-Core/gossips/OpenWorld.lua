@@ -674,6 +674,7 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	},
 	["Maru"] = {
 		124413, -- Quest "A Whiff of Help"
+		124589, -- Quest "The Toy Thief"
 	},
 	["Gerald"] = {
 		123382, -- Guest Relations Secret Crate
@@ -718,5 +719,29 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	},
 	["Nuts"] = {
 		124581, 124582, -- Quest "Operation Toy Rescue"
+	},
+	["Getseng"] = {
+		124598, -- Quest "The Toy Thief"
+	},
+	["Riko"] = {
+		124050, -- Quest "The Case of the Fur-Getting Wikket"
+	},
+	["Shademaster Kiryn"] = {
+		124051, -- Quest "The Case of the Fur-Getting Wikket"
+	},
+	["Sully \"The Pickle\" McLearey"] = {
+		124068, 124067, -- Quest "The Case of the Fur-Getting Wikket"
+	},
+	["Hunter Zaya"] = {
+		54939, -- Unknown
+	},
+	["Lashk"] = {
+		123849, -- Quest "Nola's Last Wish"
+	},
+	["Scrollsage Nola"] = {
+		123850, -- Quest "Nola's Last Wish"
+	},
+	["Voidfire"] = {
+		124935, 124936, 124937, 124938, 125255, -- Quest "From Ashes to Wisdom"
 	},
 })

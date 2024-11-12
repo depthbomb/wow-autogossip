@@ -1,3 +1,8 @@
+## 2024.11.12
+
+- Added automation for new Secrets of Azeroth quests
+
+
 ## 2024.11.07
 
 - Added automation to some NPCs relating to the blood elf starting zone
