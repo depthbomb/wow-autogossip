@@ -1,3 +1,10 @@
+## 2024.11.19
+
+- Added automation for missing trivia answers for _Historian Ju'pa_ and _Historian Llore_
+- Added automation for new Secrets of Azeroth quests
+- Added automation for the last remaining NPC/object to the _Underkeep_ delve
+- Added partial automation to some _Frostfire Ridge_ questlines
+
 ## 2024.11.12
 
 - Added automation for new Secrets of Azeroth quests

@@ -405,6 +405,7 @@ local gossips = {
 	},
 	["Weaver's Instructions"] = {
 		121566, -- The Spiral Weave Delve
+		121502, -- The Underkeep Delve
 	},
 	["Vetiverian"] = {
 		120255, -- Tak-Rethan Abyss Delve

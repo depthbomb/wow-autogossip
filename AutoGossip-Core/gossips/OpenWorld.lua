@@ -529,6 +529,7 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 		46063,
 		45687,
 		42184,
+		42185,
 		46069,
 		41536,
 		46175,
@@ -542,6 +543,7 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 		41716,
 		42192,
 		42166,
+		42169,
 		46212,
 		46219,
 		46026,
@@ -625,6 +627,7 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 		46063,
 		45687,
 		42184,
+		42185,
 		46069,
 		41536,
 		46175,
@@ -638,6 +641,7 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 		41716,
 		42192,
 		42166,
+		42169,
 		46212,
 		46219,
 		46026,
@@ -743,5 +747,50 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	},
 	["Voidfire"] = {
 		124935, 124936, 124937, 124938, 125255, -- Quest "From Ashes to Wisdom"
+	},
+	["Kelsey Yance"] = {
+		124863, -- Quest "Pirate Foods and Superstitions"
+	},
+	["Mrs. Gant"] = {
+		125134, -- Quest "Pirate Foods and Superstitions"
+	},
+	["Scowling Rosa"] = {
+		124886, -- Quest "Pirate Foods and Superstitions"
+	},
+	["Bonenose"] = {
+		124889, 124888, 124887, -- Quest "Pirate Gastronomy"
+	},
+	["Raider Jhash"] = {
+		39016, -- Quest "Riding On"
+	},
+	["Skaggit"] = {
+		42535, -- Quest "What We Got"
+	},
+	["Senior Peon II"] = {
+		43217, -- Quest "What We Got"
+	},
+	["Farseer Drek'thar"] = {
+		42362, -- Quest "Pool of Visions"
+	},
+	["Pul Windcarver"] = {
+		42420, -- Quest "Back to Bladespire Citadel"
+	},
+	["Gana Surehide"] = {
+		41796, -- Quest "Into the Boneslag"
+	},
+	["Farmer Yoon"] = {
+		125008, 125009, -- Quest "Lost and... Found?"
+	},
+	["Marin Noggenfogger"] = {
+		125026, 125029, -- Quest "Lost and... Found?"
+	},
+	["Oglethorpe Obnoticus"] = {
+		125033, 125053, -- Quest "Lost and... Found?"
+	},
+	["John J. Keeshan"] = {
+		125025, 125021, -- Quest "Lost and... Found?"
+	},
+	["Mankrik"] = {
+		125041, 125046, -- Quest "Lost and... Found?"
 	},
 })
