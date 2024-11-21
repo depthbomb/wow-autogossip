@@ -720,6 +720,7 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	},
 	["Yennu"] = {
 		124578, 124577, -- Quest "Operation Toy Rescue"
+		125014,         -- Quest "Buried Treasure"
 	},
 	["Nuts"] = {
 		124581, 124582, -- Quest "Operation Toy Rescue"
@@ -792,5 +793,11 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	},
 	["Mankrik"] = {
 		125041, 125046, -- Quest "Lost and... Found?"
+	},
+	["Alphonse Constant"] = {
+		124449, 124452, 124455, 124454, -- Quest "Deck Dismay"
+	},
+	["Dalaran Survivor"] = {
+		124145, 124144, -- Quest "Ratt's Race"
 	},
 })

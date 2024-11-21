@@ -1,3 +1,8 @@
+## 2024.11.20
+
+- Added automation for today's Secrets of Azeroth quests
+- Added automation related to the beginning of the felcycle secret
+
 ## 2024.11.19
 
 - Added automation for missing trivia answers for _Historian Ju'pa_ and _Historian Llore_
