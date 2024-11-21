@@ -1,3 +1,7 @@
+## 2024.11.21
+
+- Added automation for the final Secrets of Azeroth quest
+
 ## 2024.11.20
 
 - Added automation for today's Secrets of Azeroth quests

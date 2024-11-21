@@ -679,6 +679,7 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Maru"] = {
 		124413, -- Quest "A Whiff of Help"
 		124589, -- Quest "The Toy Thief"
+		125109, -- Quest "A Surprising Investigation"
 	},
 	["Gerald"] = {
 		123382, -- Guest Relations Secret Crate
@@ -703,8 +704,9 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 		123672, -- Quest "The "Great" Detective"
 	},
 	["Athelton Jones"] = {
-		123678, 123684, -- Quest "The "Great" Detective"
-		123736, 123735, -- Quest "Spot the Difference"
+		123678, 123684,         -- Quest "The "Great" Detective"
+		123736, 123735,         -- Quest "Spot the Difference"
+		125114, 125115, 125120, -- Quest "A Surprising Investigation"
 	},
 	["Rexxar"] = {
 		123717, 123714, -- Quest "The Trail's Gone Cold"
@@ -760,6 +762,7 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	},
 	["Bonenose"] = {
 		124889, 124888, 124887, -- Quest "Pirate Gastronomy"
+		125119,                 -- Quest "A Surprising Investigation"
 	},
 	["Raider Jhash"] = {
 		39016, -- Quest "Riding On"
@@ -799,5 +802,17 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	},
 	["Dalaran Survivor"] = {
 		124145, 124144, -- Quest "Ratt's Race"
+	},
+	["Lorewalker Cho"] = {
+		125108, -- Quest "A Surprising Investigation"
+	},
+	["Big Kinook"] = {
+		125107, -- Quest "A Surprising Investigation"
+	},
+	["Reshad"] = {
+		125110, -- Quest "A Surprising Investigation"
+	},
+	["Jepetto Joybuzz"] = {
+		125111, -- Quest "A Surprising Investigation"
 	},
 })
