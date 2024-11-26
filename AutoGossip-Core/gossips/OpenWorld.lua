@@ -815,4 +815,17 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Jepetto Joybuzz"] = {
 		125111, -- Quest "A Surprising Investigation"
 	},
+	["Master Cheng"] = {
+		41015, -- Monk Training
+		40975, -- Monk Training
+	},
+	["Master Kistane"] = {
+		40841, -- Monk Training
+	},
+	["Master Yoon"] = {
+		40843, -- Monk Training
+	},
+	["Master Tsang"] = {
+		41014, -- Monk Training
+	},
 })

@@ -1,3 +1,7 @@
+## 2024.11.26
+
+- Added automation to NPCs for _The Peak of Serenity_-related quests for monks
+
 ## 2024.11.21
 
 - Added automation for the final Secrets of Azeroth quest
@@ -17,7 +21,6 @@
 ## 2024.11.12
 
 - Added automation for new Secrets of Azeroth quests
-
 
 ## 2024.11.07
 
