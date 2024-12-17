@@ -1,3 +1,7 @@
+## 2024.12.17.1
+
+- Added automation to the first round of _Siren Isle_ quests (potentially incomplete)
+
 ## 2024.12.17
 
 - Updated for patch 11.0.7

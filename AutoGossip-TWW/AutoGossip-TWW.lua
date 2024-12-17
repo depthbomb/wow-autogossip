@@ -123,15 +123,18 @@ local gossips = {
 	},
 	["Hannan"] = {
 		123210, -- Quest "Resounding Repercussions"
+		123866, -- Quest "Together, Alone"
 	},
 	["Selective Historian"] = {
 		122942, -- Quest "Absent Errand"
 	},
 	["On'hiea"] = {
 		123219, 123220, -- Quest "Tense Recovery"
+		123067,         -- Quest "Price of a Mission"
 	},
 	["Ney'leia"] = {
 		123221, 123222, -- Quest "Tense Recovery"
+		123066,         -- Quest "Price of a Mission"
 	},
 	["Ysabel Gleamgaard"] = {
 		123232, 123233, -- Quest "Open Communications"
@@ -157,6 +160,8 @@ local gossips = {
 	},
 	["Orweyna"] = {
 		121150, -- Quest "Alone in the Dark"
+		123108, -- Quest "The Voice"
+		123172,
 	},
 	["Widow Arak'nai"] = {
 		--[[
@@ -476,6 +481,35 @@ local gossips = {
 	},
 	["Celle Wilde"] = {
 		121697, -- Flight Master to exit The Hungering Pool
+	},
+	["Greenspeaker Na'layro"] = {
+		123068, -- Quest "Price of a Mission"
+	},
+	["Harried Worker"] = {
+		123125,
+	},
+	["Skaggit"] = {
+		124305, -- Quest "To the Siren Isle!"
+	},
+	["Apprentice Tanmar"] = {
+		124803, -- Quest "To Scan a Crystal"
+	},
+	["Bargus"] = {
+		124801, -- Quest "To Scan a Crystal"
+		124775, -- Quest "The Radiant Vault"
+	},
+	["Skeletal Remains"] = {
+		124399, -- Quest "The Radiant Vault"
+	},
+	["Suzie Boltwrench"] = {
+		123657, -- Quest "Special Assignment: Storm's a Brewin"
+		125326, -- Leave storm phase
+	},
+	["Singing Tablet"] = {
+		125531, -- Quest "Shoreline Strand"
+	},
+	["Zexel Fingersnap"] = {
+		131423, -- Quest "A Lifeline"
 	},
 }
 
