@@ -1,3 +1,19 @@
+## 2024.12.17
+
+- Updated for patch 11.0.7
+- Added automation for the following quests:
+  - _Here's the Plan_
+  - _An End to the End_
+  - _The Blacksmith's Fate_
+  - _Resounding Repercussions_
+  - _Absent Errand_
+  - _Tense Recovery_
+  - _Open Communications_
+  - _Finding Ebonchill_
+  - _Alodi's Gems_
+  - _Daio the Decrepit_
+  - _The Mage Hunter_
+
 ## 2024.11.26
 
 - Added automation to NPCs for _The Peak of Serenity_-related quests for monks

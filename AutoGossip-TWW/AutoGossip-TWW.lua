@@ -112,9 +112,32 @@ local gossips = {
 		122867, -- Treasure
 	},
 	["Faerin Lothar"] = {
-		121725, -- Quest "Shadow upon Shadow"
-		120685, -- Quest "The Darkened Flame"
-		120602, -- Quest "Restore the Flame"
+		121725,         -- Quest "Shadow upon Shadow"
+		120685,         -- Quest "The Darkened Flame"
+		120602,         -- Quest "Restore the Flame"
+		122308, 122311, -- Quest "Here's the Plan"
+		122400,         -- Quest "An End to the End"
+	},
+	["Sir Ashrealm"] = {
+		122364, 122369, 122370, -- Quest "The Blacksmith's Fate"
+	},
+	["Hannan"] = {
+		123210, -- Quest "Resounding Repercussions"
+	},
+	["Selective Historian"] = {
+		122942, -- Quest "Absent Errand"
+	},
+	["On'hiea"] = {
+		123219, 123220, -- Quest "Tense Recovery"
+	},
+	["Ney'leia"] = {
+		123221, 123222, -- Quest "Tense Recovery"
+	},
+	["Ysabel Gleamgaard"] = {
+		123232, 123233, -- Quest "Open Communications"
+	},
+	["Baer"] = {
+		123234, 123237, -- Quest "Open Communications"
 	},
 	["Kelther Hearthen"] = {
 		121757, -- Quest "The Darkened Flame"

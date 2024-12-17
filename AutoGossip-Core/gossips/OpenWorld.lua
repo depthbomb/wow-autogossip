@@ -828,4 +828,16 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Master Tsang"] = {
 		41014, -- Monk Training
 	},
+	["Meryl Felstorm"] = {
+		45570, -- Quest "Finding Ebonchill"
+	},
+	["Glutonia"] = {
+		45770, -- Quest "Alodi's Gems"
+	},
+	["Daio the Decrepit"] = {
+		45996, 45997, 45998 -- Quest "Daio the Decrepit"
+	},
+	["Aludane Whitecloud"] = {
+		44179 -- Quest "The Mage Hunter"
+	},
 })
