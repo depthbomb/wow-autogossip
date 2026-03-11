@@ -1,3 +1,9 @@
+## 2024.03.11
+
+- Automation update
+
+Unfortunately money is tight and I cannot get the Midnight expansion yet. A planned overhaul of the addon + automation for Midnight content is currently on hold.
+
 ## 2024.12.17.1
 
 - Added automation to the first round of _Siren Isle_ quests (potentially incomplete)
