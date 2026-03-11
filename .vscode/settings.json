@@ -6,7 +6,8 @@
 		"StaticPopup_Show",
 		"AutoGossip",
 		"ACCEPT",
-		"OKAY"
+		"OKAY",
+		"SlashCmdList"
 	],
 	"Lua.runtime.version": "Lua 5.1",
 	"Lua.runtime.builtin": {

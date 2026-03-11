@@ -10,7 +10,8 @@ AutoGossip.merge_tables = function(target, source)
 	for k, v in pairs(source) do
 		target[k] = target[k] or {}
 		for _, item in ipairs(v) do
-			table.insert(target[k], item)
+			-- Use a set for O(1) lookups and to avoid duplicates.
+			target[k][item] = true
 		end
 	end
 end
@@ -66,7 +67,6 @@ function AutoGossip.main:PLAYER_INTERACTION_MANAGER_FRAME_SHOW(event)
 	local should_halt = IsShiftKeyDown()
 	local should_force = IsAltKeyDown()
 	local is_gossip = event == Enum.PlayerInteractionType.Gossip
-	local has_available_quests = C_GossipInfo.GetNumAvailableQuests() > 0
 
 	--[[
 		Stop if SHIFT is held OR the interaction type is not Gossip
@@ -86,6 +86,7 @@ function AutoGossip.main:PLAYER_INTERACTION_MANAGER_FRAME_SHOW(event)
 		--[[
 			Stop if we can't find the NPC name in the gossip table or there are no options.
 		]]
+		local has_available_quests = C_GossipInfo.GetNumAvailableQuests() > 0
 		local npc_name = GossipFrame.TitleContainer.TitleText:GetText()
 		if not npc_name then return end
 
@@ -99,7 +100,7 @@ function AutoGossip.main:PLAYER_INTERACTION_MANAGER_FRAME_SHOW(event)
 		-- Time to choose...
 		----------------------------------------------------------------
 		for _, option in ipairs(options) do
-			if tContains(gossips, option.gossipOptionID) then
+			if gossips[option.gossipOptionID] then
 				-- Warn if there are available quests
 				if has_available_quests then
 					if not should_force then
@@ -122,3 +123,43 @@ AutoGossip.main:RegisterEvent("PLAYER_INTERACTION_MANAGER_FRAME_SHOW")
 AutoGossip.main:SetScript("OnEvent", function(self, event, ...)
 	self[event](self, ...)
 end)
+
+-- Debug helper: print gossip info for the current NPC.
+SLASH_AUTOGOSSIPDEBUG1 = "/autogossipdebug"
+SlashCmdList.AUTOGOSSIPDEBUG = function()
+	local npc_name = GossipFrame and GossipFrame.TitleContainer and GossipFrame.TitleContainer.TitleText and GossipFrame.TitleContainer.TitleText:GetText()
+	local guid = UnitGUID("npc") or UnitGUID("target") or UnitGUID("mouseover")
+	local npc_id = nil
+	if guid then
+		local _, _, _, _, _, id = strsplit("-", guid)
+		npc_id = tonumber(id)
+	end
+
+	AutoGossip.print_branded("Gossip Debug:")
+	if npc_name then
+		AutoGossip.print_branded("  NPC Name: " .. npc_name)
+	else
+		AutoGossip.print_branded("  NPC Name: (unknown)")
+	end
+	if guid then
+		AutoGossip.print_branded("  GUID: " .. guid)
+	else
+		AutoGossip.print_branded("  GUID: (unknown)")
+	end
+	if npc_id then
+		AutoGossip.print_branded("  NPC ID: " .. npc_id)
+	else
+		AutoGossip.print_branded("  NPC ID: (unknown)")
+	end
+
+	local options = C_GossipInfo.GetOptions()
+	if not options or #options == 0 then
+		AutoGossip.print_branded("  Options: (none)")
+		return
+	end
+
+	AutoGossip.print_branded("  Options:")
+	for _, option in ipairs(options) do
+		AutoGossip.print_branded("    - " .. option.gossipOptionID .. ": " .. option.name)
+	end
+end
