@@ -840,4 +840,13 @@ AutoGossip.merge_tables(AutoGossip.GOSSIPS, {
 	["Aludane Whitecloud"] = {
 		44179 -- Quest "The Mage Hunter"
 	},
+	["Empyrean Conjuror"] = {
+		45608 -- Quest "What Is Going On Here?"
+	},
+	["Empyrean Disciple"] = {
+		45608 -- Quest "What Is Going On Here?"
+	},
+	["Kalecgos"] = {
+		45665 -- Quest "..."
+	},
 })
