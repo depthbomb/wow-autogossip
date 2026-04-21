@@ -1,10 +1,15 @@
-## 2024.03.11
+## 2026.4.21
+
+- Bump TOC for 12.0.5
+- Added stub addon for upcoming _Midnight_ automation
+
+## 2026.3.11
 
 - Automation update
 
 Unfortunately money is tight and I cannot get the Midnight expansion yet. A planned overhaul of the addon + automation for Midnight content is currently on hold.
 
-## 2024.12.17.1
+## 2025.12.17.1
 
 - Added automation to the first round of _Siren Isle_ quests (potentially incomplete)
 
@@ -109,7 +114,7 @@ Unfortunately money is tight and I cannot get the Midnight expansion yet. A plan
 - Added remaining automation for NPCs in _Celestial Tournament_
 
 
-## 2024.10.08
+## 2024.10.8
 
 - Added missing automation to _Foreman Bruknar_ in the _Earthen Waterworks_ delve
 - Added automation to _Kriz the "Loyal"_ to enter the story mode raid for the quest _To Kill a Queen_
@@ -124,7 +129,7 @@ Unfortunately money is tight and I cannot get the Midnight expansion yet. A plan
 - Added partial automation to the foresaken intro questline
 - Added automation to _Darkmoon Faire Mystic Mages_ to teleport you to the _Darkmoon Faire_ portal
 
-## 2024.10.01
+## 2024.10.1
 
 - Added missing automation to _Baelgrim_ for the _Bring the Thunder_ quest
 - Added a potential automation for an NPC during a _Theater Troupe_ task
@@ -133,11 +138,11 @@ Unfortunately money is tight and I cannot get the Midnight expansion yet. A plan
 - Added automation to _Wrathion_ and _Sabellian_ for the _Allegiance to One_ world quest
 - Added automation for an NPC related to the _High Priestess Jeklik_ quest
 
-## 2024.09.25
+## 2024.9.25
 
 - Fixed automation for _Coren Direbrew_ not being complete
 
-## 2024.09.24
+## 2024.9.24
 
 - Added automation for various delve NPCs
 - Added automation for an NPC related to the _Into Shadows_ world quest
@@ -147,7 +152,7 @@ Unfortunately money is tight and I cannot get the Midnight expansion yet. A plan
 - Added automation to _Kalendormu_ to skip to unlocking _Obsidian Citadel_ endgame activities
 - Added automation to _Coren Direbrew_ in the... _Coren Direbrew_ instance
 
-## 2024.09.17
+## 2024.9.17
 
 - Fixed a typo resulting in _Speaker Jurlax_ not being automated
 - Added missing automation for NPCs related to the _A Wrench in the Works_ quest
@@ -161,36 +166,36 @@ Unfortunately money is tight and I cannot get the Midnight expansion yet. A plan
 - Added automation for an NPC in the _Molten Core_ instance
 - Added automation for an NPC in the _Ny'alotha, the Waking City_ instance
 
-## 2024.09.10
+## 2024.9.10
 
 - Added automation for various delve NPCs
 - Added automation for skipping the level-up campaign at _Brann Bronzebeard_
 - Added automation for NPCs on _Exile's Reach_ for warrior characters (untested for Alliance)
 
-## 2024.09.09
+## 2024.9.9
 
 - Added automation for NPCs on _Exile's Reach_ for monk characters (untested for Alliance)
 - Added additional automation for NPCs/objects in _The War Within_ content
 
-## 2024.09.06
+## 2024.9.6
 
 - Slightly increased the automation delay from 0.15s to 0.25s
 - Added additional automation for NPCs in _The War Within_ content
 
-## 2024.09.05
+## 2024.9.5
 
 - Potentially fixed automation not working in some cases
 - Added additional automation for NPCs in _The Cape of Stranglethorn_
 - Added additional automation for NPCs in _The War Within_ content
 
-## 2024.09.04
+## 2024.9.4
 
 - Fixed automation not working when holding `ALT` when talking to an NPC that is also offering quests
 - Added automation for NPCs on _Exile's Reach_ for paladin characters (untested for Alliance)
 - Added automation for NPCs in _Battle of Dazar'alor_ (untested for Alliance)
 - Added additional automation for various _The War Within_ NPCs/objects
 
-## 2024.09.02
+## 2024.9.2
 
 This update splits _AutoGossip_ into multiple addons that are included automatically. The main addon is now called _AutoGossip Core_ and will provide automation for all content prior to _The War Within_ with _The War Within_ content being split into a "plugin" addon. The plugin addon does nothing on its own and requires the core addon to be enabled. You can disable this plugin addon to "opt out" of NPC automation in _The War Within_ content.
 
@@ -200,7 +205,7 @@ This update splits _AutoGossip_ into multiple addons that are included automatic
 - Fixed the available quest warning appearing when it shouldn't
 - Updated addon message style
 
-## 2024.08.22
+## 2024.8.22
 
 - Added automation for the following instances:
   - _Ragefire Chasm_
@@ -216,7 +221,7 @@ This update splits _AutoGossip_ into multiple addons that are included automatic
 - Added automation for various objects related to Fyrakk Assaults
 - Added automation for various Loamm vendors
 
-## 2024.08.20
+## 2024.8.20
 
 - Added automation for the following quests:
   - _Backdoor Dealings_
@@ -232,13 +237,13 @@ This update splits _AutoGossip_ into multiple addons that are included automatic
   - _Bloodsail's End_
   - _The Battle for Andorhal_
 
-## 2024.08.14
+## 2024.8.14
 
 - Added automation for the following NPCs:
   - _Herbert Gloomburst_
   - _Mithdran Dawntracker_
 
-## 2024.08.13
+## 2024.8.13
 
 - Added automation for the following NPCs:
   - _Archmage Khadgar_ (Dragon Isles introduction quest)
@@ -247,7 +252,7 @@ This update splits _AutoGossip_ into multiple addons that are included automatic
 - Added automation for the Dracthyr starting quests
   - Potentially incomplete, untested for Alliance
 
-## 2024.08.09
+## 2024.8.9
 
 - Added automation for the following zones:
   - _Exile's Reach_ (Horde)
@@ -257,7 +262,7 @@ This update splits _AutoGossip_ into multiple addons that are included automatic
     - Untested for Alliance
   - _Lothos Riftwaker_ (Molten Core teleport)
 
-## 2024.08.08
+## 2024.8.8
 
 - Added automation for the following quests:
   - _Andu-falah-dor_
@@ -277,7 +282,7 @@ This update splits _AutoGossip_ into multiple addons that are included automatic
 - Added automation for the following NPCs:
   - _Zidormi_ (Silithus)
 
-## 2024.08.07
+## 2024.8.7
 
 - Added automation for the following quests:
   - _Putting Roots Down_
@@ -285,13 +290,13 @@ This update splits _AutoGossip_ into multiple addons that are included automatic
   - _Marithra's Gambit_
   - _Flight and Fight_
 
-## 2024.07.30
+## 2024.7.30
 
 - Added automation for the following NPCs/objects:
   - _Fiona's Caravan_
   - _Argus Highbeacon_
 
-## 2024.07.29
+## 2024.7.29
 
 - Initial Release
 - Added automation for the following NPCs/objects:
