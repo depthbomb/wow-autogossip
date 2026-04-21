@@ -1,6 +1,6 @@
-## Interface: 110207, 120000, 120001
+## Interface: 120000, 120001, 120005
 ## Title: |cffffff77Auto|r|cff00c0ffGossip|r |cnTRANSMOGRIFY_FONT_COLOR:TWW|r
-## Version: v2026.1.21
+## Version: v2026.4.21
 ## Author: depthbomb
 ## Notes: A plugin for |cffffff77Auto|r|cff00c0ffGossip|r that adds gossip automation to The War Within content.
 ## IconTexture: 3193419
